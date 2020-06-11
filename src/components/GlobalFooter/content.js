@@ -3,15 +3,15 @@ export default {
     'name': 'SAFE Network',
     'links': [
       {
-        'name': 'Home',
+        'name': 'Inicio',
         'url': '/'
       },
       {
-        'name': 'How It Works',
+        'name': 'Cómo funciona',
         'url': '/how-it-works/'
       },
       {
-        'name': 'Press Kit',
+        'name': 'Kit de prensa',
         'url': '/press-kit/'
       },
       {
@@ -19,11 +19,11 @@ export default {
         'url': '/safecoin/'
       },
       {
-        'name': 'Get Involved',
+        'name': 'Participar',
         'url': '/get-involved/'
       },
       {
-        'name': 'FAQs',
+        'name': 'Preguntas frecuentes',
         'url': '/faq/'
       },
       {
@@ -31,54 +31,54 @@ export default {
         'url': 'https://medium.com/safenetwork'
       },
       {
-        'name': 'Roadmap',
+        'name': 'La hoja de ruta',
         'url': '/roadmap/'
       },
       {
-        'name': 'Events',
+        'name': 'Eventos',
         'url': 'https://safenetforum.org/t/safe-network-upcoming-events/29029'
       }
     ]
   },
   'community': {
-    'name': 'Community',
+    'name': 'Comunidad',
     'links': [
       {
-        'name': 'SAFE Network Forum',
+        'name': 'Foro de SAFE Network',
         'url': 'https://safenetforum.org/'
       },
       {
-        'name': 'Developer Forum',
+        'name': 'Foro de desarrolladores',
         'url': 'https://forum.safedev.org/'
       }
     ]
   },
   'company': {
-    'name': 'Company',
+    'name': 'Empresa',
     'links': [
       {
-        'name': 'About MaidSafe',
+        'name': 'Acerca de MaidSafe',
         'url': '/about-maidsafe'
       },
       {
-        'name': 'Website',
+        'name': 'Sitio web',
         'url': 'https://maidsafe.net/'
       },
       {
-        'name': 'Contact',
+        'name': 'Contacto',
         'url': 'https://maidsafe.net/contact'
       },
       {
-        'name': 'Careers',
+        'name': 'Carreras',
         'url': 'https://maidsafe.net/careers'
       }
     ]
   },
   'developers': {
-    'name': 'Developers',
+    'name': 'Desarrolladores',
     'links': [
       {
-        'name': 'Developer Hub',
+        'name': 'Centro de desarrollo',
         'url': 'https://hub.safedev.org/'
       },
       {
@@ -91,21 +91,21 @@ export default {
     'name': 'Legal',
     'links': [
       {
-        'name': 'Privacy Policy',
+        'name': 'Política de privacidad',
         'url': '/privacy'
       },
       {
-        'name': 'Cookie Policy',
+        'name': 'Política de cookies',
         'url': '/cookies'
       },
       {
-        'name': 'Credits',
+        'name': 'Créditos',
         'url': 'https://maidsafe.net/credits'
       }
     ]
   },
   'newsletter': {
-    'name': 'Newsletter'
+    'name': 'Boletín de notcicias'
   },
   'social': {
     'name': 'Social',
