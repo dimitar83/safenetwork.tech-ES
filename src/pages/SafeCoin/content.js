@@ -1,53 +1,53 @@
 export default {
   banner: {
-    title: 'Welcome to the New\n Digital Economy',
-    desc: 'Safecoin is at the core of the Network. It’s money that lets you store data and rewards you when you contribute. Only with instant transactions, unlimited scaling—and no fees.',
+    title: 'Bienvenidos a la Nueva\n Economía Digital',
+    desc: 'Safecoin es el núcleo de la red. Es el dinero lo que le permite almacenar datos y le recompensa cuando contribuye. Solo con transacciones instantáneas y sin cargos extra.',
   },
   video: {
     caption: 'Safecoin: The Currency for Security and Privacy',
   },
   textBlock1: {
-    title: 'Share resources, get paid',
+    title: 'Comparta recursos, reciba pagos',
     para: [
-      'Safecoin is a cryptocurrency like no other. Digital cash with no public ledger. There’s no limit to the number of transactions which can take place instantly, privately and simultaneously.',
-      'Earning Safecoin is simple. Choose to become a Farmer and connect your computer to the Network. Watch as the Network automatically and continually moves chunks of data around the world to ensure efficiency. Proof of Resource takes the place of more expensive alternatives, like Proof of Work.',
-      'Safecoin can then be used to buy Network resources—like the one-time fee for uploading data—or exchanged for goods and services like any other currency.',
+      'Safecoin es una criptomoneda como ninguna otra. Es dinero digital sin contabilidad pública. No hay límite en el número de transacciones instantáneas, de forma privada y simultánea.',
+      'Ganar Safecoin es simple. Elija convertirse en un Granjero y conecte su ordenador a la red. Verá cómo la Red mueve de forma automática y continua fragmentos de datos por todo el mundo para garantizar eficiencia. La Prueba de Recursos toma el lugar de alternativas más caras, como la Prueba de Trabajo.',
+      'Safecoin se puede utilizar para comprar recursos de Red, como tarifa única para cargar datos, o cambiarse por bienes y servicios como cualquier otra moneda.',
     ],
   },
   textBlock2: {
-    title: 'Contribute and be rewarded',
+    title: 'Contribuya y sea recompensado',
     para: [
-      'The current ad-supported internet model is broken. On SAFE, popular apps and sites are paid directly by the Network according to how much they get used.',
-      'Want to build an app or create content? The days of having to meet your website infrastructure costs are gone. With an open source platform, just build and deploy. Your personal data is no longer an asset for the profit of others.'
+      'El modelo actual de Internet con publicidad está roto. En SAFE, las aplicaciones y sitios populares son pagados directamente por la Red de acuerdo a cuánto se utilizan.',
+      '¿Quiere crear una aplicación o crear contenido? Los días de tener que cumplir con los costos de infraestructura de su sitio web han desaparecido. Con la plataforma de código abierto, solo tiene que compilar e implementar. Sus datos personales ya no son un capital para el beneficio de otros.'
     ],
     CTA: {
-      name: 'Start developing',
+      name: 'Empiece a desarrollar',
       url: 'https://hub.safedev.org/'
     }
   },
   textBlock3: {
-    title: 'Pay Anonymously, be paid privately.',
+    title: 'Pague de forma anónima, obtenga el pago en privado.',
     para: [
-      'Safecoin acts as digital cash. Unlike blockchain based cryptocurrencies there is no public ledger; only the current and previous owner of each coin are known to each other. So you can be paid in privacy.',
-      'And you can even pay anonymously if you require it. It’s your choice.'
+      'Safecoin actúa como dinero digital. A diferencia de las criptomonedas basadas en cadena de bloques no hay un libro mayor público; sólo el propietario actual y anterior de cada moneda son conocidos entre sí. De este modo, se paga en la privacidad.',
+      'E incluso puede pagar de forma anónima si lo necesita. Es su elección.'
     ]
   },
   textBlock4: {
-    title: 'Whaddaya mean, no Blockchain?',
+    title: '¿Qué quiere decir, sin cadena de bloques?',
     para: [
-      'Unlike most cryptocurrencies Safecoin will not have a blockchain. This means it will be highly scalable, unburdened by an ever-growing ledger of transactions.',
-      'This, combined with what is known as Close Group Consensus mechanism, provides something truly special: transactions that are confirmed at network speed and with zero transaction costs.'
+      'A diferencia de la mayoría de las criptomonedas, Safecoin no tendrá una cadena de bloques. Esto significa que será altamente escalable, sin carga por un libro mayor de transacciones en constante crecimiento.',
+      'Esto, combinado con lo que se conoce como mecanismo de Consenso de Grupo Cercano, proporciona algo realmente especial: transacciones que se confirman a velocidad de red y con cero costos extras.'
     ],
     CTA: {
-      name: 'What is Close Group Consensus?',
+      name: '¿Qué es de Consenso de Grupo Cercano?',
       url: '/faq/#what-is-close-group-consensus'
     }
   },
   textBlock5: {
-    title: 'How do I buy Safecoin?',
+    title: 'Cómo puedo comprar Safecoin?',
     para: [
-      'Safecoin is the currency that will power the SAFE Network. It will be available to be farmed, used or traded. You can’t buy them yet, but you can buy MaidSafeCoin.',
-      'MaidSafeCoin (MAID) is a token that was created in a crowdsale in 2014 to support the project, and each MAID will be exchanged for a Safecoin when the network launches. Based on the Omni protocol on top of the Bitcoin blockchain, MAID can be purchased and traded, but not farmed.'
+      'Safecoin es la moneda que alimentará SAFE Network. Estará disponible para ser cultivada, utilizada o comercializada. Todavía no puede comprarlos, pero puede comprar MaidSafeCoin.',
+      'MaidSafeCoin (MAID) es un token que fue creado en una venta masiva en 2014 para apoyar el proyecto, y cada MAID será intercambiado por un Safecoin cuando éste se lance la red.'
     ]
   },
   textBlock6: {
