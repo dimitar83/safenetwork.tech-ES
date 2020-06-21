@@ -51,10 +51,10 @@ export default {
     ]
   },
   textBlock6: {
-    title: 'Buying MaidSafeCoin',
+    title: 'Comprando MaidSafeCoin',
     para: [
-      'MaidSafeCoin can be bought and traded at these exchanges. We’re adding new ones all the time.',
-      'MAID is based on the Omni protocol and there are no hard wallet options at this stage, so whilst you’re waiting to convert MAID to Safecoin at the launch of the Network, we’d always recommend that you store your coins in cold storage.'
+      'MaidSafeCoin puede comprarse y cambiarse en estas bolsas, que están siendo agregadas todo el tiempo.',
+      'MAID se basa en el protocolo Omni y no hay opciones de cartera física en esta etapa, por lo que mientras espera para convertir MAID a Safecoin en el lanzamiento de la red, siempre le recomendamos que guarde sus monedas en almacenamiento en frío.'
     ]
   },
   exchanges: [
@@ -70,75 +70,75 @@ export default {
   faqs: {
     sections: [
       {
-        title: 'Safecoin: Frequently Asked Questions',
+        title: 'Safecoin: Preguntas frecuentes',
         items: [
           {
-            question: 'What is Safecoin?',
+            question: 'Qué es Safecoin?',
             answer: [
-              `Safecoin are digital tokens that are generated automatically by the SAFE Network and reside on the SAFE Network. The Network will autonomously confirm account balances to wallets and allow transactions to take place. Safecoin are transferred using the digital signature of the coin’s last owner. This operation is 'network atomic'—in other words, the Network ensures that all copies update to reflect the transaction. This is a different approach to the blockchain mechanism employed in other projects, such as Bitcoin.`,
-              'There can be many millions of transactions per second on the SAFE Network and the larger it becomes the more transactions per second can be executed. A Safecoin only records the previous and current owners. By doing so, it ensures that the current owner was transferred ownership properly by the last owner. This allows coins to be transferred between people very easily and without delay.',
-              'Please note that Safecoin will not be active until the network goes live. See MaidSafeCoin for current proxy token.'
+              `Safecoin son tokens digitales que son generados automáticamente por SAFE Network y residen en SAFE Network. La Red confirmará de forma autónoma los saldos de las cuentas en los monederos y permitirá que se realicen transacciones. Safecoin se transfieren utilizando la firma digital del último propietario de la moneda. Esta operación es ‘red-atómica’, es decir, la red garantiza que todas las copias se actualicen para reflejar la transacción. Este es un enfoque diferente al mecanismo de cadena de bloques empleado en otros proyectos, como Bitcoin.`,
+              'Pueden efectuarse millones de transacciones por segundo en SAFE Network y cuanto mayor sea, más transacciones por segundo se pueden ejecutar. Un Safecoin sólo registra los propietarios anteriores y actuales. Al hacerlo, se asegura de que al propietario actual le fue transferida correctamente la propiedad del último propietario. Esto permite que las monedas se transfieran entre personas muy fácilmente y sin demora.',
+              'Tenga en cuenta que Safecoin no estará activo hasta que la red entre en funcionamiento. Consulte MaidSafeCoin para acceder al token de proxy actual.'
             ]
           },
           {
-            question: 'How is Safecoin used on the network?',
+            question: '¿Cómo se utiliza Safecoin en la red?',
             answer: [
-              'Safecoin is the currency of the SAFE Network. It is an incentive mechanism that rewards Users and developers, as well as providing access to network services.',
-              'Without any human intervention, the SAFE Network pays out Safecoin automatically to Farmers (users who join the Network by contributing their computing resources) and to Builders (application developers, who get paid automatically depending on how much their applications are used).',
-              'In addition, Core Developers who improve the core SAFE Network codebase can also earn Safecoin by providing bug fixes and new features.',
-              `Safecoin only lives on the SAFE Network. It is stored in a User's wallet and can be used to buy network services, such as increased storage space and access to network applications. There is no set distribution time for the 4.3 billion Safecoin produced during the life of the SAFE Network.`,
-              'Please note that Safecoin will not be active until the network goes live. See for current proxy token.'
+              'Safecoin es la moneda de SAFE Network. Es un mecanismo de incentivos que recompensa a los usuarios y desarrolladores, así como proporcionar acceso a los servicios de red.',
+              'Sin ninguna intervención humana, SAFE Network paga Safecoin automáticamente a los Agricultores (usuarios que se unen a la Red aportando sus recursos informáticos) y a los Constructores (desarrolladores de aplicaciones, que reciben pagos automáticamente dependiendo de cuánto se utilizan sus aplicaciones).',
+              'Además, los desarrolladores principales que mejoran el código base de SAFE Network núcleo también pueden ganar Safecoin proporcionando correcciones de errores y nuevas características.',
+              `Safecoin sólo vive en SAFE Network. Se almacena en la cartera de un usuario y se puede utilizar para comprar servicios de red, como mayor espacio de almacenamiento y acceso a aplicaciones de red. No hay un tiempo de distribución establecido para los 4.3 millones de Safecoin producidos durante la vida de SAFE Network.`,
+              'Tenga en cuenta que Safecoin no estará activo hasta que la red entre en funcionamiento. Consulte el token de proxy actual.'
             ]
           },
           {
-            question: 'How do I buy Safecoin?',
+            question: '¿Cómo compro Safecoin?',
             answer: [
-              'Safecoin won’t be issued until the Network goes live so they cannot be purchased at the moment. Currently you can buy MaidSafeCoin which will be swapped on a 1-to-1 basis for Safecoin when it is released.'
+              'Safecoin no se emitirá hasta que la Red entre en funcionamiento por lo que no se pueden comprar en este momento. Actualmente se puede comprar MaidSafeCoin, que se intercambiará sobre una base 1 a 1 para Safecoin cuando éste sea lanzado.'
             ]
           },
           {
-            question: 'What is MaidSafeCoin?',
+            question: '¿Qué es MaidSafeCoin?',
             answer: [
-              `MaidSafeCoin is a proxy token that was released during MaidSafe's crowd sale and will be swapped for Safecoin on a 1:1 basis when Safecoin is released. MaidSafeCoin is listed on the Bitcoin blockchain and can be purchased on a number of exchanges including:`,
+              `MaidSafeCoin es un token de proxy que fue lanzado durante la venta masiva de MaidSafe y será intercambiado por Safecoin sobre una base 1:1 cuando Safecoin es lanzado. MaidSafeCoin esta enlistado en la cadena de bloque de Bitcoin, y puede ser adquirido en algunos de los siguientes formatos:`,
               '- [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)\n- [HitBTC](https://hitbtc.com/MAID-to-BTC)'
             ]
           },
           {
-            question: 'How do I buy MaidSafeCoin?',
+            question: '¿Cómo compro MaidSafeCoin?',
             answer: [
-              'In essence all we have to do is buy bitcoin and exchange it for MaidSafeCoin. There are a few simple steps required to do this.',
-              '- Create an [OmniWallet](http://omniwallet.org/).\n- Purchase bitcoin using your preferred vendor.\n- Create a trade account on an exchange which lists MaidSafeCoin (e.g. on [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)).\n- Send bitcoin to the trading account.\n- Trade bitcoin for MaidSafeCoin.\n- Withdraw / Transfer to OmniWallet.\n- MaidSafeCoin is now in your OmniWallet!'
+              'Básicamente, todo lo que tenemos que hacer es comprar Bitcoin y cambiarlo por MaidSafeCoin. Se requieren unos simples pases para lograrlo.',
+              '- Cree un [OmniWallet](http://omniwallet.org/).\n- Compre Bitcoin usando tu proveedor preferido.\n- Cree una cuenta comercial en un intercambio que enumera MaidSafeCoin (e.g. on [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)).\n- Envíe bitcoin a la cuenta de intercambio.\n- Canjee bitcoin a MaidSafeCoin.\n- Retire / y Transfiera a su OmniWallet.\n- Ya ha obtenido su MaidSafeCoin!'
             ]
           },
           {
-            question: 'Where can I store MaidSafeCoin?',
+            question: '¿Dónde puedo almacenar MaidSafeCoin?',
             answer: [
-              'As MaidSafeCoin is built using the Omni protocol on the Bitcoin blockchain, it can be stored in any wallet. They may not be visible within all wallet software (due to lack of Omni support) but the MaidSafeCoin will be OK there as long as your machine and private key for that address are secure. You will be able to view them using [omniexplorer.info](https://omniexplorer.info).',
-              'To create a new Omniwallet or open an existing one visit [omniwallet.org](https://www.omniwallet.org/).'
+              'Como MaidSafeCoin ha sido construido utilizando el protocolo Omni en la cadena de bloques Bitcoin, puede ser almacenado en cualquier billetera. Puede que no sean visibles dentro de todo el software de la cartera (debido a la falta de soporte Omni), pero MaidSafeCoin estará bien allí, siempre y cuando su máquina y clave privada para esa dirección estén seguras [omniexplorer.info](https://omniexplorer.info).',
+              'Para crear un nuevo Omniwallet o abrir uno existente, visite [omniwallet.org](https://www.omniwallet.org/).'
             ]
           },
           {
-            question: 'What is Farming?',
+            question: '¿Qué es la Agricultura?',
             answer: [
-              'Safecoin are given as an incentive to users for providing their resources to the Network. These resources are their: storage space, CPU, bandwidth and online time that enable the encrypted chunks of network data to be stored and retrieved from their computer.',
-              'The process of providing resources and receiving Safecoin in return is called ‘Farming’.',
-              `Each piece of encrypted network data is stored in a Farmer's ‘Vault’, a data storage and management location on the Farmer's computer which they cannot read, or access. The SAFE Network is designed to self-manage these resources.`,
+              'Safecoin son dados como incentivo a los usuarios para proporcionar sus recursos a la Red. Estos recursos son sus: espacio de almacenamiento, CPU, banda ancha y tiempo en línea que permiten que los fragmentos cifrados de datos de red se almacenen y recuperen de su ordenador.',
+              'El proceso de proporcionar recursos y recibir Safecoin a cambio se llama “Agricultura”.',
+              `Cada pieza de datos de red cifrados se almacena en una “Bóveda” de un Granjero, una ubicación de almacenamiento y gestión de datos en el ordenador del Granjero que no se pueden leer ni ser accedidos. La red SAFE está diseñada para autoadministrar estos recursos.`,
 
             ]
           },
           {
-            question: 'How will Farming work?',
+            question: '¿Cómo funcionará la Agricultura?',
             answer: [
-              'When a user of the network requests some data, for example by browsing a website, a number of things happen: First, the client software makes a request for the required data chunks. This message (a GET request) is then propagated across the Network and when the chunk is found there is a competition between the Vaults in that Section to deliver it to the Network where it will be routed back to the requester.  The first Vault to deliver will have a chance of being rewarded with one Safecoin. This is described as a Farming Attempt.',
-              'Farming Attempt means: by delivering data chunks when requested, a Vault occasionally gains the opportunity to make a Farming Attempt. This consists of sending a validated request to a random Safecoin address. If an owned Safecoin already exists at that address, the Attempt fails. If there is no Safecoin there, one is created and awarded to the requesting Vault (i.e. a successful Farming Attempt has been made).',
-              'Farming is therefore when a Vault delivers data chunks that it is storing to the network and earns Safecoin in return. The probability of gaining a Farming Attempt is dependent on the farming_rate, which is a variable related to the quantity of available storage resources in the Network.'
+              'Cuando un usuario de red solicita datos, por ejemplo, navegando por un sitio web, suceden varias cosas: En primer lugar, el software cliente solicita los fragmentos de datos necesarios. Este mensaje (una solicitud GET) se propaga a través de la red y cuando se encuentra el fragmento hay una competencia entre los almacenes de esa sección para entregarlo a la red donde se enrutará de vuelta al solicitante. La primera bóveda que los entregue tendrá la posibilidad de ser recompensada con un Safecoin. Esto se describe como un intento de Agricultura.',
+              'Intento de Agricultura significa: al entregar fragmentos de datos solicitados, una bóveda ocasionalmente obtiene la oportunidad de hacer un intento de Agricultura. Esto consiste en enviar una solicitud validada a una dirección Safecoin aleatoria. Si ya existe un Safecoin de propiedad en esa dirección, el intento falla. Si no hay Safecoin allí, se crea uno y se le otorga a la Bóveda solicitante (es decir, el intento de Agricultura ha sido exitoso).',
+              'Por lo tanto, la Agricultura es cuando una Bóveda entrega fragmentos de datos que están almacenados en la red y recibe Safecoin a cambio. La probabilidad de obtener un intento de agricultura depende de la tasa de cultivo, que es una variable relacionada con la cantidad de recursos de almacenamiento disponibles en la Red.'
             ]
           },
         ],
       }
     ],
     CTA: {
-      name: 'More FAQs',
+      name: 'Más Preguntas frecuentes',
       url: '/faq/'
     }
   }
