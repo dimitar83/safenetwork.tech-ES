@@ -150,43 +150,43 @@ export default {
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0050-malice_in_parsec/0050-malice_in_parsec.md'
             }
           }, {
-            feature: 'Test Safecoin & Wallet',
-            desc: 'Allow the Network to charge, and a user to send and receive payments to a wallet, in units called Test Safecoins',
+            feature: 'Prueba Safecoin & Monedero',
+            desc: 'Permita a la Red cargar, y un usuario enviar y recibir pagos en una billetera, en unidades llamadas Test Safecoins',
             status: 'Completo',
             para: [
-              'Safecoin is the incentive mechanism that encourages individuals to provide the computing resources that the Network requires: storage, broadband, and CPU resources.',
+              'Safecoin es el mecanismo de incentivos que alienta a las personas a proporcionar los recursos informáticos que la Red requiere: almacenamiento, banda ancha y recursos de CPU.',
             ]
           }, {
-            feature: 'Farming',
-            desc: 'The process of providing resource and receiving Safecoin in return',
+            feature: 'Agricultura',
+            desc: 'El proceso de proporcionar recursos y recibir Safecoin a cambio',
             status: 'Desarrollo',
             para: [
-              'Individuals who choose to supply the resources that the Network requires have the opportunity to be rewarded with Safecoin. This work ensures that the Network rewards those who provide it with valuable resources.',
+              'Las personas que eligen suministrar los recursos que la Red requiere, tienen la oportunidad de ser recompensadas con Safecoin. Este trabajo garantiza que la Red premia a quienes le proporcionan recursos valiosos.',
             ],
           }, {
-            feature: 'Vaults From Home',
-            desc: 'The ability for anyone to download software and run Vaults from home, creating decentralised storage for the Network',
+            feature: 'Bóvedas desde casa',
+            desc: 'La capacidad de cualquier persona para descargar software y ejecutar Vaults desde casa, creando almacenamiento descentralizado para la red',
             status: 'Desarrollo',
             para: [
-              'Decentralised data storage is a key element of the SAFE Network. This release will enable nodes to participate regardless of the resources they offer.'
+              'El almacenamiento de datos descentralizado es un elemento clave de SAFE Network. Esta versión permitirá a los nodos participar independientemente de los recursos que ofrezcan.'
             ],
           }, {
-            feature: 'Published and Unpublished Data Types',
-            desc: 'Allow the network to store Published and Unpublished data via AppendOnlyData or MutableData types',
+            feature: 'Tipos de datos publicados y no publicados',
+            desc: 'Permitir que la red almacene datos publicados y no publicados a través de los tipos AppendOnlyData o MutableData',
             status: 'Completo',
             para: [
-              'Published data refers to content that is published (made available) for everyone such as websites, blogs, or research papers. For such public content, it becomes important to retain a history of changes. History must not be allowed to be tampered with and the published data must remain forever. Unpublished data is data that is not desired to be made public such as personal data or organisations’ data stored on the network'
+              'Los datos publicados se refieren al contenido que se publica (se pone a disposición) para todos, como sitios web, blogs o artículos de investigación. Para este tipo de contenido público, se hace importante conservar un historial de cambios. No se debe permitir que el historial sea manipulado y los datos publicados deben permanecer para siempre. Los datos no publicados no deberían ser públicos, como datos personales o datos de organizaciones almacenados en la red'
             ],
             //CTA: {
               //name: 'Read the RFC',
               //url: 'https://github.com/maidsafe/rfcs/blob/master/text/0054-published-and-unpublished-mutable-data/0054-published-and-unpublished-mutable-data.md'
             //},
           }, {
-            feature: 'Unpublished ImmutableData Data Type',
-            desc: 'Enhance ImmutableData to make it an unpublished or published, with the difference that unpublished can be deleted',
+            feature: 'Tipo de datos InmutableData no publicado',
+            desc: 'Mejore ImmutableData para que no se publique o si se publique, con la diferencia de que no se puede eliminar',
             status: 'Completo',
             para: [
-              'There are many times when a user will require to create Immutable Data to store private content. As long as this content is not published (made available for others) this will be deleteable by the data owner only.'
+              'En muchas ocaciones, el usuario necesitará crear datos inmutables para almacenar contenido privado. Mientras este contenido no se publique (puesto a disposición de otros), solo el propietario de los datos podrá eliminarlo.'
             ],
             //CTA: {
               //name: 'Read the RFC',
@@ -197,41 +197,41 @@ export default {
       }
     },
     release3: {
-      overline: 'Next Up',
+      overline: 'Lo que sigue',
       title: 'SAFE Maxwell Network',
-      para: ['The release of SAFE Maxwell builds on top of Fleming and enables the network to upgrade, improves security and sets the ground work for switching Test Safecoin to real Safecoin.'],
+      para: ['El lanzamiento de SAFE Maxwell se basa en Fleming y permite a la red actualizar, mejorar la seguridad y establecer el trabajo de tierra para cambiar la prueba SAFE Coin a SAFEcoin real.'],
       accordion: {
         header: [
-          'Maxwell Feature',
-          'Description',
-          'Status'
+          'Característica Maxwell',
+          'Descripción',
+          'Estado'
         ],
         items: [
           {
-            feature: 'Spam Handling',
-            desc: 'Ability to handle spam attacks',
-            status: 'Concept',
+            feature: 'Manejo de Spam',
+            desc: 'Capacidad para manejar ataques de spam',
+            status: 'Concepto',
             para: [
-              'Spam includes nodes attempting to carry out activities that they shouldn’t or valid activities at a scale that is intended to choke the Network. The Network should be able to withstand a reasonable volume of such attacks.'
+              'El spam incluye nodos que intentan llevar a cabo actividades que no deberían o actividades válidas a una escala destinada a ahogar la red. La red debe ser capaz de soportar un volumen razonable de tales ataques.'
             ],
           }, {
-            feature: 'Identity Management',
-            desc: 'Ability for users to create and manage multiple identities for use on the network',
-            status: 'Concept',
+            feature: 'Gestión de identidades',
+            desc: 'Capacidad para que los usuarios creen y administren múltiples identidades para su uso en la red',
+            status: 'Concepto',
             para: [
-              'Users will be able to create multiple identities in the Network. Each identity can be used as required by the User and each should be independent unless the User explicitly wants to connect them. This helps protect identity and privacy.'
+              'Los usuarios podrán crear varias identidades en la red. Cada identidad se puede utilizar según lo requiera el Usuario y cada una debe ser independiente a menos que el Usuario desee conectarlas explícitamente. Esto ayuda a proteger la identidad y la privacidad.'
             ],
           },
           {
-            feature: 'Upgrades',
-            desc: 'The ability for the Network to upgrade itself, with no harm caused',
-            status: 'Concept',
+            feature: 'Actualizaciones',
+            desc: 'La capacidad de la Red de actualizarse a sí misma, sin consecuencias',
+            status: 'Concepto',
             para: [
-              'The Network will have the ability to upgrade itself in order to allow features and improvements to disseminate throughout the Network. The upgrades must be done in a way such that they don’t cause harm to the Network.',
-              'This is an important stage in the evolution of the Network as it means that new software can then continue to be rolled out onto the existing Network without disrupting the existing functionality.'
+              'La Red tendrá la capacidad de actualizarse a sí misma con el fin de permitir que las características y mejoras se difundan a través de la Red. Las actualizaciones deben hacerse de tal manera que no causen daño a ella.',
+              'Esta es una etapa importante en la evolución de la red, ya que significa que el nuevo software puede continuar siendo desplegado en la red existente sin interrumpir la funcionalidad existente.'
             ],
             CTA: {
-              name: 'Follow the Discussion',
+              name: 'Sigue la discusión',
               url: 'https://safenetforum.org/t/step-by-step-the-road-to-fleming-5-network-upgrades/28319'
             }
           }
@@ -239,61 +239,61 @@ export default {
       }
     },
     release4: {
-      overline: 'Coming Soon',
-      title: 'Upcoming Network Features',
-      para: ['The following list represents network work that remains to be completed. The order should not be seen as fixed in any way as in certain cases, work will be carried out in parallel by different teams.'],
+      overline: 'Próximamente',
+      title: 'Próximas características de red',
+      para: ['La siguiente lista representa el trabajo de red que queda por completar. El orden del trabajo no es fijo como en ciertos casos, sino que será llevado a cabo en paralelo por diferentes equipos.'],
       accordion: {
         header: [
-          'Feature',
-          'Description',
-          'Status'
+          'Característica',
+          'Descripción',
+          'Estado'
         ],
         items: [
           {
-            feature: 'Secure Enclaves',
-            desc: 'A trusted executable environment within existing computers',
-            status: 'Concept',
+            feature: 'Enclaves seguros',
+            desc: 'Un entorno ejecutable de confianza dentro de los ordenadores existentes',
+            status: 'Concepto',
             para: [
-              'Creates an area within the hardware of a computer that is a secure, trusted environment that stands separate from the rest of the computer. It functions like a mini-computer inside existing computers that cannot be opened.'
+              'Crea un área dentro del hardware de un equipo que es un entorno seguro y de confianza, pues se encuentra separado del resto del equipo. Funciona como un mini-ordenador, dentro de los ordenadores existentes, que no se puede abrir.'
             ],
           }, {
-            feature: 'Network Growth',
-            desc: 'Allow the network to grow and scale in a sustainable way',
-            status: 'Concept',
+            feature: 'Crecimiento de la red',
+            desc: 'Permita que la red crezca y se escale de manera sostenible',
+            status: 'Concepto',
             para: [
-              'The Network allows controlled growth to ensure that the majority of decision-makers are healthy nodes that follow the rules of the Network. This growth should be sustainable in order to avoid unnecessary mergers between Sections.'
+              'La red permite un crecimiento controlado para garantizar que la mayoría de los responsables de la toma de decisiones sean nodos sanos que siguen las reglas de la red. Este crecimiento será sostenible para evitar fusiones innecesarias entre secciones.'
             ],
           }, {
-            feature: 'Network Restarts',
-            desc: 'Ability for the network to restart after a catastrophe',
-            status: 'Concept',
+            feature: 'Reinicios de red',
+            desc: 'Capacidad para que la red se reinicie después de una catástrofe',
+            status: 'Concepto',
             para: [
-              'In the event of a catastrophic outage, the Network should be able to rebuild itself because it maintains the integrity of essential data (such as chain history) which enables it to start functioning again on the basis of the last known state of the Network.'
+              'En caso de una interrupción catastrófica, la Red debe ser capaz de reconstruirse a sí misma, ya que mantiene la integridad de los datos esenciales (como el historial de la cadena) que le permite comenzar a funcionar de nuevo sobre la base del último estado conocido de la red.'
             ],
           }, {
-            feature: 'RDF Support',
-            desc: 'The Network will have native support for RDF, enabling data to be compatible with the Semantic Web',
+            feature: 'Soporte de RDF',
+            desc: 'La Red tendrá soporte nativo para RDF, lo que permitirá que los datos sean compatibles con la Red Semántica',
             status: 'RFC',
             para: [
-              'Ensures that data on the SAFE Network is stored in such a way that the format can be understood by other Semantic Web projects, such as Solid.'
+              'Garantiza que los datos de SAFE Network se almacenen de manera que el formato pueda ser entendido por otros proyectos Web semánticos, como Solid.'
             ],
             CTA: {
               name: 'Lea el RFC',
               url: 'https://github.com/nbaksalyar/rfcs/blob/master/text/0000-rdf-in-client-libs/0000-rdf-in-client-libs.md'
             },
           }, {
-            feature: 'Obfuscating stored data',
-            desc: 'All data stored within a Vault on an individual’s computer must be entirely encrypted and unreadable',
-            status: 'Concept',
+            feature: 'Ofuscación los datos almacenados',
+            desc: 'Todos los datos almacenados en la bóveda del ordenador de un individuo estarán completamente encriptados e ilegibles',
+            status: 'Concepto',
             para: [
-              'Ensures that even the smallest piece of data that is stored in a Vault cannot be read by the person controlling the computer on which it is stored.'
+              'Garantiza que incluso la parte más pequeña de los datos guardados en un almacén no pueda ser leída por la persona que controla el equipo en el que se almacena.'
             ],
           }, {
-            feature: 'Common Coin',
-            desc: 'Replace our concrete coin with a common coin to make PARSEC fully asynchronous',
-            status: 'Design',
+            feature: 'Moneda común',
+            desc: 'Reemplace nuestra moneda físoca con una moneda común para hacer que PARSEC sea totalmente asíncrono',
+            status: 'Diseño',
             para: [
-              'Common coin is a device that nodes can use to generate a “random” binary value (true or false). Every time a node flips the coin, all other nodes are guaranteed to observe the same value for their coin flip. Also, the value must be unpredictable, which means that no malicious node can know the outcome before a honest node has observed it.'
+              'Moneda común es un dispositivo que los nodos pueden utilizar para generar un valor binario “aleatorio” (verdadero o falso). Cada vez que un nodo voltea la moneda, todos los demás nodos están garantizados para mantener el mismo valor. Además, el valor será impredecible, lo que significa que ningún nodo malintencionado puede conocer el resultado antes de que un nodo honesto lo haya observado.'
             ],
           }
         ]
@@ -301,32 +301,32 @@ export default {
     }
   },
   apps: {
-    title: 'Apps and User Experience',
+    title: 'Aplicaciones y experiencia de usuario',
     list: [
       {
         id: 'safeBrowser',
         name: 'SAFE Browser',
-        para: 'The latest release includes some of the beginnings of the Perpetual Web. Please note that it\'s only compatible with the Vaults Phase 1 release.',
-        status: 'Latest Version v0.16.0'
+        para: 'La última versión incluye algunos de los comienzos de la Web Perpetua, así como el Authenticator: le permite iniciar sesión de forma segura en SAFE Network y administrar el acceso y los permisos de las aplicaciones SAFE.',
+        status: 'ULTIMA VERSION v0.16.0'
       }
     ],
     currentMilestone: {
-      status: 'Current Milestone',
-      title: 'The Perpetual Web',
-      para: 'The SAFE Network is designed to ensure that public data is permanent and can never be deleted. Individuals and groups can choose to keep their data private, but once it’s been published, it will remain permanently available. This milestone aims to showcase the incredible power of this facet of the Network, by building out the User Experience, and iterating on it right through to launch.',
+      status: 'HITO ACTUAL',
+      title: 'La Web Perpetua',
+      para: 'SAFE Network está diseñada para garantizar que los datos públicos sean permanentes y nunca se puedan eliminar. Las personas y los grupos pueden optar por mantener sus datos privados, pero una vez que se hayan publicado, permanecerán permanentemente disponibles. Este hito tiene como objetivo mostrar el increíble poder de esta faceta de la Red, mediante la construcción de la experiencia del usuario, y la iteración en ella hasta el lanzamiento.',
       accordion: {
         header: [
-          'Milestone Features',
-          'Description',
-          'Status'
+          'Características de hito',
+          'Descripción',
+          'Estado'
         ],
         items: [
           {
-            feature: 'SAFE Browser',
-            desc: 'Enhancements to the browser designed specifically to take advantage of the functionalities of the Perpetual Web',
+            feature: 'SAFE NAVEGADOR',
+            desc: 'Mejoras en el navegador diseñadas específicamente para aprovechar las funcionalidades de la Red Perpetua',
             status: 'Completo',
             para: [
-              'The SAFE Browser functionality will be extended to incorporate new features that are unique to the Perpetual Web, such as the ability to roll-back through the version history of any SAFE website or asset.'
+              'La funcionalidad del navegador SAFE se ampliará para incorporar nuevas características que son exclusivas de la Web Perpetua, como la capacidad de revertir a través del historial de las versiones de cualquier sitio web o activo de SAFE.'
             ],
           },
           {
