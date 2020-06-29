@@ -451,15 +451,15 @@ export default {
                 desc: 'Herramientas para permitir la colaboración mediante el uso compartido y permisos de grupo en datos privados no publicados',
                 status: 'Concepto',
                 para: [
-                  'Manage sharing and permissions of private, unpublised data and files, for collaboration between individuals and groups. '
+                  'Gestione el uso compartido y los permisos de datos y archivos privados no publicados, para la colaboración entre individuos y grupos. '
                 ],
               },
               {
                 feature: 'XOR URLs',
-                desc: 'A way of sharing and accessing SAFE Network files without the need for a Public Name',
+                desc: 'Una forma de compartir y acceder a archivos de red SAFE sin necesidad de un nombre público',
                 status: 'Completo',
                 para: [
-                  'Gestione el uso compartido y los permisos de datos y archivos privados no publicados, para la colaboración entre individuos y grupos.'
+                  'Cree un sistema de URL estandarizadas en la red SAFE que se basen en la dirección XOR del contenido al que se hace referencia. Garantiza que las personas puedan acceder y localizar datos y archivos de una manera más fácil de usar.'
                 ],
               }
             ]
