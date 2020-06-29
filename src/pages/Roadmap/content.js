@@ -330,35 +330,35 @@ export default {
             ],
           },
           {
-            feature: 'Mobile Browser',
-            desc: 'Mobile version of SAFE browser which is limited to browsing published data from the SAFE Network',
+            feature: 'Navegador móvil',
+            desc: 'Versión móvil de SAFE que se limita a la navegación de los datos publicados de la Red SAFE',
             status: 'Completo',
             para: [
-              'Enables individuals to access the SAFE Network directly by using a browser on their mobile phone'
+              'Permite a las personas acceder a la red SAFE directamente mediante el uso de un navegador en su teléfono móvil'
             ],
           },
           {
-            feature: 'Data Manager',
-            desc: 'Streamlined publishing of SAFE sites and Perpetual Data',
+            feature: 'Gestor de datos',
+            desc: 'Publicación optimizada de sitios SAFE y datos perpetuos',
             status: 'Desarrollo',
             para: [
-              'A suite of tools which provides the necessary functionality to add data to the SAFE Network, publish perpetual data, and manage Public Names. This will supersede the Web Hosting Manager.'
+              'Un conjunto de herramientas que proporciona la funcionalidad necesaria para agregar datos a la red SAFE, publicar datos perpetuos y administrar nombres públicos. Esto reemplazará al Administrador de alojamiento web.'
             ],
           },
           {
             feature: 'SAFE CLI',
-            desc: 'An advanced CLI to manage accounts and data',
+            desc: 'Una CLI avanzada para administrar cuentas y datos',
             status: 'Completo',
             para: [
-              'A command line tool to manage data on the SAFE Network. It will allow the user to store data on the network and manage accounts, identities, and permissions. This is the tool that the frontend apps and features—such as the Data Manager—will build upon.'
+              'Una herramienta de línea de comandos para administrar datos en la red SAFE. Permitirá al usuario almacenar datos en la red y administrar cuentas, identidades y permisos. Esta es la herramienta sobre la que se basarán las aplicaciones y características de front-end, como el Administrador de datos.'
             ],
           },
           {
-            feature: 'Public Name System',
-            desc: 'Content stored should be accessible with human-readable URLs, via a decentralised domain name system: the Public Name System',
+            feature: 'Sistema de nombres públicos',
+            desc: 'El contenido almacenado debe ser accesible con url legibles por humanos, a través de un sistema descentralizado de nombres de dominio: el Sistema de Nombres Públicos',
             status: 'Completo',
             para: [
-              'A domain name system translates numerical IP addresses into a format that can be read by humans (eg. http//216.58.206.35 resolves to Google.com). The current web relies on a centralised organisation to maintain that record. The SAFE Network requires this process to be outside the control of a single party in order to avoid censorship and repression.'
+              'Un sistema de nombres de dominio traduce las direcciones IP numéricas a un formato que puede ser leído por los seres humanos (p. ej. http//216.58.206.35 se traduce a Google.com). La web actual se basa en una organización centralizada para mantener ese registro. La Red SAFE requiere que este proceso esté fuera del control de un solo partido para evitar la censura y la represión.'
             ],
             CTA: {
               name: 'Lea el RFC',
@@ -369,69 +369,69 @@ export default {
       }
     },
     upcomingMilestones: {
-      status: 'Upcoming Milestones',
+      status: 'Próximos hitos',
       list: [
         {
-          title: 'Private Communications',
-          para: 'If we want a world in which individuals can communicate freely whenever they choose, privacy is essential. This milestone aims to deliver just that.',
+          title: 'Comunicaciones privadas',
+          para: 'Si queremos un mundo en el que las personas puedan comunicarse libremente cuando lo deseen, la privacidad es esencial. Este hito tiene como objetivo lograr justamente eso.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Características de hito',
+              'Descripción',
+              'Estado'
             ],
             items: [
               {
-                feature: 'Private Messaging',
-                desc: 'Send secure private messages between clients',
-                status: 'Concept',
+                feature: 'Mensajería privada',
+                desc: 'Envíe mensajes privados seguros entre clientes',
+                status: 'Concepto',
                 para: [
-                  'One of the most sought after features of the SAFE Network: secure, private, instant messaging.'
+                  'Una de las características más buscadas de la Red SAFE: mensajería segura, privada y instantánea.'
                 ],
               },
               {
-                feature: 'Identity Management',
-                desc: 'Ability for users to create and manage multiple identities',
-                status: 'Concept',
+                feature: 'Gestión de identidades',
+                desc: 'Capacidad para que los usuarios creen y administren múltiples identidades',
+                status: 'Concepto',
                 para: [
-                  'Improves the user experience for individuals as they switch between the identities (or profiles) that they choose to represent themselves with on the SAFE Network, without the need to create multiple accounts.'
+                  'Mejora la experiencia del usuario para las personas a medida que cambian entre las identidades (o perfiles) con las que eligen representarse en la red SAFE, sin necesidad de crear varias cuentas.'
                 ],
               },
               {
-                feature: 'Contacts Management',
-                desc: 'Find, connect and stay up-to-date with other SAFE Network users  ',
-                status: 'Concept',
+                feature: 'Gestión de Contactos',
+                desc: 'Encuentre, conéctese y manténgase al día con otros usuarios de SAFE Network',
+                status: 'Concepto',
                 para: [
-                  'Enables SAFE users to find and connect with other people across a range of applications in a consistent way.'
+                  'Permite a los usuarios de SAFE encontrarse y conectar con otras personas a través de una amplia gama de aplicaciones de una manera coherente.'
                 ],
               },
             ]
           }
         },
         {
-          title: 'Take Control of Your Data',
-          para: 'The SAFE Network turns the current data ownership model on its head. Personal information will no longer be stored on corporate servers. Self Authentication gives you complete control over your data. You can grant (and revoke) permission for apps to use your data at any time and prevent any unauthorised company or third party ever gaining access.',
+          title: 'Tome el control de sus datos',
+          para: 'La red SAFE pone el modelo de propiedad de datos actual de cabeza. La información personal ya no se almacenará en servidores corporativos. La auto-autenticación le proporciona completo control sobre sus datos. Puede conceder (y revocar) permiso para que las aplicaciones utilicen sus datos en cualquier momento y evitar que cualquier empresa no autorizada o un tercero obtenga acceso.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Características de Hito',
+              'Descripción',
+              'Estado'
             ],
             items: [
               {
-                feature: 'Data Manager',
-                desc: 'Fine-grained management of your personal data',
-                status: 'Concept',
+                feature: 'Gestor de datos',
+                desc: 'Gestión detallada de sus datos personales',
+                status: 'Concepto',
                 para: [
-                  'The extension of the Data Manager tool to allow fine-grained control by individuals over their private and unpublished data.'
+                  'La extensión de la herramienta Administrador de datos para permitir un control detallado por parte de las personas sobre sus datos privados y no publicados.'
                 ],
               },
               {
-                feature: 'RDF Support',
-                desc: 'Support storing and querying RDF resources in SAFE-Core',
+                feature: 'Soporte de RDF',
+                desc: 'Admite el almacenamiento y la consulta de recursos de RDF en SAFE-Core',
                 status: 'RFC',
                 para: [
-                  'Ensures that the SAFE Network understands a way of describing the architecture of data that is understood by other projects, such as Solid'
+                  'Asegura que la Red SAFE entienda una forma de describir la arquitectura de datos que otros proyectos, como Solid, puedan comprender'
                 ],
                 CTA: {
                   name: 'Lea el RFC',
@@ -439,17 +439,17 @@ export default {
                 },
               },
               {
-                feature: 'SPARQL Support',
-                desc: 'Add native support for SPARQL to allow searching of data',
-                status: 'Concept',
+                feature: 'Soporte SPARQL',
+                desc: 'Agregue soporte nativo para SPARQL para permitir la búsqueda de datos',
+                status: 'Concepto',
                 para: [
-                  'Enhances the functionality of SAFE by adding SPARQL support to SAFE Client Libs and SAFE Vault.  This ensures that the Network can understand a well-known semantic query language, and enables users to search.'
+                  'Mejora la funcionalidad de SAFE añadiendo compatibilidad con SPARQL a SAFE Client Libs y SAFE Vault. Esto garantiza que la red pueda comprender un lenguaje de consulta semántica conocido y permite a los usuarios buscar.'
                 ],
               },
               {
-                feature: 'Collaboration',
-                desc: 'Tools to enable collaboration through sharing and group permissions on private unpublished data',
-                status: 'Concept',
+                feature: 'Colaboración',
+                desc: 'Herramientas para permitir la colaboración mediante el uso compartido y permisos de grupo en datos privados no publicados',
+                status: 'Concepto',
                 para: [
                   'Manage sharing and permissions of private, unpublised data and files, for collaboration between individuals and groups. '
                 ],
@@ -459,36 +459,36 @@ export default {
                 desc: 'A way of sharing and accessing SAFE Network files without the need for a Public Name',
                 status: 'Completo',
                 para: [
-                  'Create a system of standardised URL’s on the SAFE Network that are based on the XOR address of the content being referenced. Ensures that individuals can access and locate  data and files in a more user-friendly manner.'
+                  'Gestione el uso compartido y los permisos de datos y archivos privados no publicados, para la colaboración entre individuos y grupos.'
                 ],
               }
             ]
           }
         },
         {
-          title: 'The New Digital Economy',
-          para: 'The new digital economy is all about ensuring that you no longer pay for your digital life with data. Instead, you use a cryptocurrency that’s integral and distributed by the SAFE Network. You earn value in return for providing resources to the Network.',
+          title: 'La nueva economía digital',
+          para: 'La nueva economía digital consiste en garantizar que ya no pague por su vida digital con datos. En su lugar, se utiliza una criptomoneda que es integral y distribuida por la red SAFE. Usted gana valor a cambio de proporcionar recursos a la Red.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Características de Hito',
+              'Descripción',
+              'Estado'
             ],
             items: [
               {
-                feature: 'Test Safecoin Wallet',
-                desc: 'Transact using Test Safecoins',
-                status: 'Development',
+                feature: 'Prueba Safecoin Monedero',
+                desc: 'Transacciones con Safecoins de prueba',
+                status: 'Desarrollo',
                 para: [
-                  'Users will be able to use Test Safecoin in the Network, allowing an ecosystem to built around the SAFE incentive mechanism. The ability to create multiple wallets, associate them with an identity, and also one-time-use wallets to enable anonymous transactions, will all be part of this.',
+                  'Los usuarios podrán utilizar Test Safecoin en la red, permitiendo la construcción de un ecosistema en torno al mecanismo de incentivos SAFE. La capacidad de crear múltiples carteras asociadas con una identidad, y también carteras de un solo uso para habilitar transacciones anónimas, será parte de esto.',
                 ],
               },
               {
-                feature: 'Vault User Interface',
-                desc: 'Easily set up, run, and manage a Vault',
-                status: 'Concept',
+                feature: 'Interfaz de usuario de bóveda',
+                desc: 'Configurar, ejecutar y administrar fácilmente una bóveda',
+                status: 'Concepto',
                 para: [
-                  'Users will see greatly-improved Vault User Experience. Anyone providing storage to the Network can expect to see a number of usability improvements, making it easy to offer resources and start farming on everyday home computers and devices.'
+                  'Los usuarios vivirán una experiencia de usuario de Vault muy mejorada. Cualquier persona que proporcione almacenamiento a la Red puede esperar ver una serie de mejoras de usabilidad, lo que facilita ofrecer recursos y comenzar a cultivar en computadoras y dispositivos domésticos cotidianos.'
                 ],
               },
             ]
