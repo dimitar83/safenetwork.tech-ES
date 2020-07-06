@@ -1,128 +1,130 @@
 export default {
-  title: 'Network Fundamentals',
-  desc: 'There are certain concepts that have driven every stage of the design of the Network ever since the project started in 2006. Since that time, the SAFE community has grown and we’re delighted to see just how many people and projects have come to recognise the vital importance of a global, secure and private decentralised platform for storage and communication.',
+  title: 'Fundamentos de la red',
+  desc: 'Hay ciertos conceptos que han impulsado cada etapa del diseño de la Red desde el comienzo del proyecto en 2006. Desde entonces, la comunidad SAFE ha crecido y estamos encantados de ver cuántas personas y proyectos han llegado a reconocer la importancia vital de una plataforma global, segura y privada descentralizada para el almacenamiento y la comunicación.',
   qa: {
     section: {
-      title: 'The Network will...',
+      title: 'La voluntad de la Red…',
       items: [
         {
-          question: 'Allow a person to create an account and login anonymously and without intervention',
+          question: 'La Red permitirá a una persona crear una cuenta e iniciar sesión de forma anónima y sin intervención',
           answer: [
-            'Creating a new account and logging into the Network will never require a third party. Those processes will always be carried out directly between the User and the Network. It is worth noting that (for technical reasons) account creation may require the presence of Safecoin in the user’s account in certain circumstances (if this, for example, minimises the possibility of one entity creating millions of new accounts to attack the Network).'
+            'Crear una nueva cuenta e iniciar sesión en la Red nunca requerirá un tercero. Estos procesos siempre se llevarán a cabo directamente entre el Usuario y la Red. Vale la pena señalar que (por razones técnicas) la creación de cuentas puede requerir la presencia de Safecoin en la cuenta del usuario en ciertas circunstancias (si esto, por ejemplo, minimiza la posibilidad de que una entidad cree millones de nuevas cuentas para atacar la Red).'
           ]
         },
         {
-          question: 'Enable Users to securely and with no controlling intermediaries share information and messages',
+          question: 'Permitie a los usuarios compartir información y mensajes de forma segura y sin control de intermediarios',
           answer: [
-            'The SAFE Network will never have any third parties who have the ability to either read or store the information sent by a User (unless that User consents in some way).'
+            'La Red SAFE nunca tendrá terceros que tengan la capacidad de leer o almacenar la información enviada por un Usuario (a menos que el Usuario lo consienta).'
           ]
         },
         {
-          question: 'Allow the transfer of Safecoin to any User free of transaction costs',
+          question: 'Permite la transferencia de Safecoin a cualquier Usuario sin costos de transacción.',
           answer: [
-            'Each User will be able to use any of their identities as a wallet address in order to be able to send and receive Safecoin.'
+            'Cada Usuario podrá utilizar cualquiera de sus identidades como dirección de monedero para poder enviar y recibir Safecoin.'
           ]
         },
         {
-          question: 'Enable Users to anonymously create and share data worldwide',
+          question: 'Permite a los usuarios crear y compartir datos de forma anónima en todo el mundo',
           answer: [
-            'The Network will always ensure that the User has the ability to send transaction messages and posts with a temporary and single-use ID that is not linked to any known identity on the Network.'
+            'La Red siempre se asegurará de que el Usuario tenga la capacidad de enviar mensajes y publicaciones de transacciones con una identidad temporal descartable que no estará vinculada a ninguna otra identidad conocida en la Red.'
           ]
         },
         {
-          question: 'Let anyone browse content anonymously and free of charge',
+          question: 'Permite a cualquier persona navegar por el contenido de forma anónima y gratuita',
           answer: [
-            'It is crucial that the new decentralised web is without barriers. One of the most important foundations for a global, collaborative platform is that anyone can access public content for free at any time without the need to create an account.'
+            'Es crucial que la nueva web descentralizada no tenga barreras. Una de las bases más importantes para una plataforma global y colaborativa es que cualquier persona puede acceder a contenido público de forma gratuita en cualquier momento sin necesidad de crear una cuenta.'
           ]
         },
         {
-          question: 'Allow Users to associate multiple identities to their account',
+          question: 'Permitir a los usuarios asociar varias identidades a su cuenta',
           answer: [
-            'Each Client Account manages information about the User which will include several identities. These identities are likely to be cryptographic key pairs.'
+            'Cada cuenta de cliente administra información sobre el usuario que incluirá varias identidades. Es posible que estas identidades sean pares de claves criptográficas.'
           ]
         },
         {
-          question: 'Let Users use any of their identities to send/receive Safecoin',
+          question: 'Permitie a los usuarios utilizar cualquiera de sus identidades para enviar / recibir Safecoin',
           answer: [
-            'Each individual must be able to use any of their identities as a wallet address in order to be able to send and receive Safecoin.'
+            'Cada individuo debe ser capaz de utilizar cualquiera de sus identidades como una dirección de cartera con el fin de ser capaz de enviar y recibir Safecoin.'
           ]
         },
         {
-          question: 'Store data in perpetuity',
+          question: 'Almacenar datos a perpetuidad',
           answer: [
-            'All public/published data on the Network will be immutable and available on the Network in perpetuity. In exactly the same way as the Internet Archive stores versions of website that were published with mistakes, it will be impossible to delete any data from the Network after it has been uploaded. That does not mean that you won’t be able to change data - you will be able to make append-only changes, i.e. historic, earlier versions of data will always remain stored on the Network (whether they are accessible or not).'
+            'Todos los datos públicos/publicados en la Red serán inmutables y estarán disponibles en la Red a perpetuidad. De la misma manera que el Archivo de Internet almacena versiones del sitio web que se publicaron con errores, será imposible eliminar cualquier dato de la Red después de que se haya cargado. Eso no significa que no podrá cambiar los datos - usted será capaz de anexar cambios, es decir, versiones históricas anteriores de los datos siempre permanecerán almacenados en la red (ya sea que sean accesibles o no).'
           ]
         },
         {
-          question: 'Never require passwords to be stored on the Network or on the machines used by the Clients to access the Network',
+          question: 'Nunca exije que las contraseñas se almacenen en la Red o en las máquinas utilizadas por los Clientes para acceder a la Red',
           answer: [
-            'The Network itself will never hold passwords as this is a common cause of data loss. Instead, a User will only ever be required to enter a password locally on the device which they use to access the Network.'
+            'La red en sí nunca contendrá contraseñas, ya que esta es una causa común de pérdida de datos. En su lugar, un usuario sólo tendrá que introducir una contraseña localmente en el dispositivo que utiliza para acceder a la red.'
           ]
         },
         {
-          question: 'Allow any User, on any machine, to access the network and leave no trace of that User on the machine',
+          question: 'Permite que cualquier Usuario, en cualquier máquina, acceda a la red, pero que no quede rastro de ese Usuario en la máquina',
           answer: [
-            'The Network must ultimately be accessible to any User on any device. When that User logs out from the Network and leaves that machine, there must be no evidence (other than any software downloaded to access the Network, such as the browser) that shows what activity the User undertook on the SAFE Network.'
+            'En última instancia, la Red debe ser accesible para cualquier Usuario en cualquier dispositivo. Cuando ese usuario cierra sesión en la red y sale de esa máquina, no debe haber ninguna evidencia (excepto cualquier software descargado para acceder a la red, como el navegador) que muestre qué actividad emprendió el usuario en la SAFE Network.
+
+'
           ]
         },
         {
-          question: 'Scrub all Client IP addresses from Hop 1 of the overlay network (i.e on SAFE)',
+          question: 'Limpa todas las direcciones IP del cliente desde el Salto 1 de la red de superposición (es decir, en SAFE)',
           answer: [
-            'After a User has started to communicate directly with anyone else after the first SAFE Network node that it connects to, the User’s IP address is scrubbed and untraceable. For clarity, we are using the phrase ‘Hop 1’ to refer to the transfer directly after that connection to the first SAFE Network node (not the hop that may take place from your computer to your home WiFi router, for example).'
+            'Después de que un usuario haya comenzado a comunicarse directamente con cualquier otra persona,luego de conectarse con el primer nodo de red SAFE, la dirección IP del usuario se elimina y es imposible de seguir. Para ser mas claros, estamos utilizando la frase ‘Salto 1’ para referirse a la transferencia directa después de esa conexión al primer nodo safenetwork (no el salto que puede tener lugar desde su computadora a su router WiFi doméstico, por ejemplo).'
           ]
         },
         {
-          question: 'Only accept more Vaults when it needs them',
+          question: 'Solo acepta más almacenes cuando las necesite',
           answer: [
-            'Like any species or group of organisms, unbounded growth leads to demise. The SAFE Network could be attacked by a bad actor simply adding millions of nodes and then closing them down (or worse). To help prevent this, the Network will only allow new nodes to join when it needs them. This also nicely slows any attacker and dilutes them with good actors also trying to join. The Network can then balance supply and demand as it sees fit as opposed to relying on external controls.'
+            'Como cualquier especie o grupo de organismos, el crecimiento sin límites conduce al colapso. La red SAFE podría ser atacada por un mal actor simplemente agregando millones de nodos y luego cerrándolos (o peor). Para evitar esto, la red solo permitirá que nuevos nodos se unan cuando los necesite. Esto muy bien ralentiza a cualquier atacante y los diluye con buenos actores también tratando de unirse. A continuación, la Red puede equilibrar la oferta y la demanda a su antojo en lugar de depender de controles externos.'
           ]
         },
         {
-          question: 'Increase farming rewards when it needs more resources (Vaults) and decrease rewards when resources are plentiful',
+          question: 'Aumenta las recompensas agrícolas cuando se necesitan más recursos (Bóvedas) y disminuye las recompensas cuando los recursos son abundantes',
           answer: [
-            'If the Network simply accepted any Vault that wanted to join, it would likely either be targeted by a botnet attack or an attacker might attempt to set up an overwhelming number of malicious nodes initially whilst the Network size is small at launch. The Network must be able to balance this supply of Vaults itself to avoid there being a large number of nodes that have very little data, as this would push the farming rates down.'
+            'Si la red simplemente acepta cualquier almacén que quisiera unirse, es probable que sea el objetivo de un ataque de botnet o que un atacante intente configurar un número abrumador de nodos malintencionados, al momento del lanzamiento, cuando la red es pequeña. La red debe ser capaz de equilibrar este suministro de Bóvedas para evitar que haya un gran número de nodos que tienen muy pocos datos, ya que esto empujaría las tasas de cultivo hacia abajo.'
           ]
         },
         {
-          question: 'Rank nodes over time and increase trust in higher ranked nodes',
+          question: 'Clasificar nodos a lo largo del tiempo y aumentar la confianza en nodos de mayor clasificación',
           answer: [
-            'A crucial part of Node Ageing (one of the ways by which the SAFE Network prevents Sybil attacks) comes from the fact that the Network is designed to only permit the most trustworthy nodes within each of the Close Groups to vote on the decisions in the Network.'
+            'Una parte esencial del Envejecimiento de Nodos (una de las formas en que la red SAFE previene los ataques Sybil) proviene del hecho de que la red solo permite a los nodos más confiables dentro los grupos más cercanos votar sobre las decisiones en la red.'
           ]
         },
         {
-          question: 'Not have servers',
+          question: 'No tener servidores',
           answer: [
-            'The SAFE Network will never rely on servers (as the term is traditionally understood) as to do so introduces a third party weakness that undermines the entire Network.'
+            'La red SAFE nunca se basará en servidores (como el término se entiende tradicionalmente) ya que ésto introduce una debilidad hacia terceros que socava toda la red.'
           ]
         },
         {
-          question: 'Digitally sign all transactions',
+          question: 'Firme digitalmente todas las transacciones',
           answer: [
-            'By ensuring that all transactions are digitally signed, the Network is able to ensure that the transactions have been authorised in accordance with the rules of the Network.'
+            'Al firmar todas las transacciones digitalmente, la Red puede garantizar que las transacciones han sido autorizadas de acuerdo con las normas de la Red.'
           ]
         },
         {
-          question: 'Ensure that Client-to-Client direct messages are free. It will charge, however, for Client-to-Client messages involving traversal through the SAFE Network',
+          question: 'Asegúrese de que los mensajes directos de cliente a cliente sean gratuitos. Sin embargo, se cobrará por los mensajes de cliente a cliente que impliquen recorrido a través de la SAFE Network',
           answer: [
-            'Clients are software programs that allow users to connect to the SAFE Network. There will never be charge levied by the Network if messages are sent directly between two Clients. However, any indirect messages that are sent between Clients that involve travel across the Network will carry a cost.'
+            'Los clientes son programas de software que permiten a los usuarios conectarse a la red SAFE. Nunca habrá un cargo cobrado por la Red si los mensajes se envían directamente entre dos Clientes. Sin embargo, los mensajes indirectos que se envíen entre clientes a través de la Red conllevarán un costo.'
           ]
         },
         {
-          question: 'Never use time as a network tool (although nodes may use local durations)',
+          question: 'Nunca utilice el tiempo como herramienta de red (aunque los nodos pueden utilizar duraciones locales)',
           answer: [
-            'There is no concept of time in a decentralised network such as SAFE unless it reaches out to centralised servers and services. SAFE uses a completely event-driven paradigm to circumvent the need to try and synchronise and then use time periods as valid tools on the network. These periods require magic numbers which would need to be set by developers and this is something the Network avoids with rigour.'
+            'No hay ningún concepto de tiempo en una red descentralizada como SAFE, a menos que llegue a servidores y servicios centralizados. SAFE utiliza un paradigma completamente basado en eventos para eludir la necesidad de intentar sincronizar y luego a utilizar períodos de tiempo como herramientas válidas en la red. Estos períodos requieren números mágicos que tendrían que ser establecidos por los desarrolladores y esto es algo que la Red evita con rigor.'
           ]
         },
         {
-          question: 'Only ever use encrypted services and encrypted traffic',
+          question: 'Solo utilice servicios cifrados y tráfico cifrado',
           answer: [
-            'Services or traffic must be encrypted if they are to be used by the SAFE Network.'
+            'Los servicios o el tráfico deben cifrarse si van a ser utilizados por la SAFE Network.'
           ]
         },
         {
-          question: 'Allow real-time upgrades in a secure manner (i.e the Network will refuse upgrades that could break it)',
+          question: 'Permita actualizaciones en tiempo real de una manera segura (es decir, la red rechazará las actualizaciones que podrían romperla)',
           answer: [
-            'The Network must be able to roll out improvements which are compatible with at least the previous version of the Network software, in order to ensure that the new iteration is an improvement in practice. As this will require significant effort, each node may run upgrades in parallel to existing working code before upgrading.'
+            'La red debe ser capaz de implementar mejoras que sean compatibles con al menos la versión anterior del software de red, con el fin de garantizar que la nueva iteración es una mejora en la práctica. Como esto requiere un esfuerzo significativo, cada nodo puede ejecutar actualizaciones en paralelo al código de trabajo existente antes de actualizar.'
           ]
         },
       ]
@@ -133,20 +135,20 @@ export default {
     lists: [
       {
         name: 'A.',
-        para: 'Safecoin is the unique incentivisation mechanism built into the SAFE Network. All Safecoins are recycled when they are paid to the Network in exchange for resources. On launch, Safecoin will be distributed as follows: (1) Pay the creators of the Network (MaidSafe shareholders) 5% of the total Safecoin; (2) Pay the 2014 crowdsale investors of the Network 10% of the total Safecoin.'
+        para: 'Safecoin es el mecanismo de incentivación único integrado en la red SAFE. Todas las Safecoins se reciclan cuando se pagan a la Red a cambio de recursos. En el lanzamiento, Safecoin se distribuirá de la siguiente manera: (1) Paga a los creadores de la Red (accionistas de MaidSafe) 5% del total de Safecoin; (2) Paga a los inversores de crowdsale 2014 de la Red 10% del total de Safecoin.'
       },
       {
         name: 'B.',
-        para: 'Safecoin will be distributed on an ongoing basis: (1) Pay Vaults for providing service (85% of rewards); (2) Pay developers who produce apps that people use (10% of rewards); (3) Pay the maintainers of the Network code (5% of rewards)'
+        para: 'Safecoin se distribuirá de forma continua: (1) Paga a las Bóvedas por proporcionar servicio (85% de las recompensas); (2) Paga a los desarrolladores que producen aplicaciones que las personas usan (10% de las recompensas); (3) Paga a los mantenedores del código de red (5% de las recompensas)'
       },
     ],
     notes: {
-      title: 'Note:',
-      para: 'Whilst the above explanation is a handy approximation of the split, the rewards will in fact be dynamically adjusted according to the Farming Rate determined by the Network:',
+      title: 'Nota:',
+      para: 'Mientras que la explicación anterior es una aproximación útil de la división, las recompensas se ajustarán dinámicamente de acuerdo con la tasa de cultivo determinada por la Red:',
       points: [
-        'Farmers who run the Vaults are paid at 100% of the Farming Rate for all GETs on the Network. I.e. 86.95% (100/115) of all rewards.',
-        'Application Developers are paid at 10% of the Farming Rate for all GETs on the Network (that relate to their applications). I.e. 8.695% (10/115) of all rewards.',
-        'Maintainer Developers are paid at 5% of the Farming Rate for all GETs on the Network. I.e. 4.348% (5/115) of all rewards.'
+        'Los agricultores que manejan las bóvedas tienen un pago del 100% de la tasa de cultivo para todos los GET de la red. Es decir, el 86,95% (100/115) de todas las recompensas.',
+        'A los desarrolladores de aplicaciones se les paga al 10% de la tasa de agricultura para todos los GET de la red (que se relacionan con sus aplicaciones). Es decir, 8.695% (10/115) de todas las recompensas.',
+        'A los desarrolladores mantenedores se les paga al 5% de la tasa de agricultura para todos los GET de la Red. Es decir, 4.348% (5/115) de todas las recompensas.'
       ]
     }
   }
