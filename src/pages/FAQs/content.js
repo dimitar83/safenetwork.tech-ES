@@ -1,64 +1,64 @@
   export default {
-  title: 'Frequently Asked Questions',
+  title: 'Preguntas más frecuentes',
   sections: [
     {
-      title: 'About the SAFE Network',
+      title: 'Acerca de la SAFE Network',
       items: [
         {
-          question: 'What is the SAFE Network?',
+          question: '¿Qué es la SAFE Network?',
           answer: [
-            'The SAFE (Secure Access For Everyone) Network is a new secure way to access apps that value the security of your data above all else. Downloading the free SAFE software will provide access to: messaging, apps, email, social networks, data storage, video conferencing, and much more.',
-            'Rather than using data centres and servers which are prone to data theft and surveillance, as is common on today\'s Internet, the SAFE Network uses advanced peer-to-peer technology that joins together the spare computing capacity of all SAFE users, creating a global network.',
-            'The SAFE Network is made up of the unused hard drive space, processing power and data connection of its users. It offers a level of security and privacy not currently available on the existing Internet and turns the tables on companies, putting users in control of their data, rather than trusting it to organisations.',
-            'By providing your unused computing resources to SAFE, you will be paid in a network token called [Safecoin](/safecoin).'
+            'La red SAFE (Acceso seguro para todos) es una nueva forma segura de acceder a aplicaciones que valoran la seguridad de sus datos por encima de todo. Descargar el software GRATUITO SAFE proporcionará acceso a: mensajería, aplicaciones, correo electrónico, redes sociales, almacenamiento de datos, videoconferencia y mucho más.',
+            'En lugar de utilizar centros de datos y servidores propensos al robo y la vigilancia de datos, como es común en internet actual, la red SAFE utiliza tecnología avanzada peer-to-peer que une la capacidad informática de repuesto de todos los usuarios de SAFE, creando una red global.',
+            'La red SAFE se compone del espacio del disco duro no utilizado, la potencia de procesamiento y la conexión de datos de sus usuarios. Ofrece un nivel de seguridad y privacidad que actualmente no está disponible en Internet existente y cambia las tablas a las empresas, poniendo a los usuarios en control de sus datos, en lugar de confiar en ellos a las organizaciones.',
+            'Al proporcionar sus recursos informáticos no utilizados a SAFE, se le pagará en un token de red llamado [Safecoin](/safecoin).'
           ]
         },
         {
-          question: 'What is an Autonomous Network?',
+          question: '¿Qué es una Red Autónoma?',
           answer: [
-            'An Autonomous Network is one which has no human gatekeepers. Anyone is able to join and—crucially—no-one can be prevented from taking part.',
-            'From the moment you upload your encrypted data, no human is required to ensure that your data remains secure and accessible until you alone choose to access it. Without the involvement of humans, the SAFE Network intelligently moves chunks of your data between nodes that it also constantly reassigns to different groups in order to provide total security and privacy at all times. You decide what information you will store—and the autonomous Network secures it to ensure that you retain total control.',
-            '_[Read more about Autonomous Networks](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
+            'Una red autónoma es una que no tiene porteros humanos. Cualquiera puede unirse y, lo que es crucial - a nadie se le impide el participar.',
+            'Desde el momento en que carga sus datos cifrados, no se requiere ningún ser humano para asegurarse de que sus éstos permanezcan seguros y accesibles hasta que solo usted elija acceder a ellos. Sin la participación de los seres humanos, SAFE Network mueve de forma inteligente fragmentos de sus datos entre nodos, que también reasigna constantemente a diferentes grupos, con el fin de proporcionar total seguridad y privacidad en todo momento. Usted decide qué información almacenará y la red autónoma la protege para asegurarse de que conserva el control total.',
+            '_[Siga leyendo sobre Redes Autónomas000000.](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
           ]
         },
         {
-          question: 'Why should I use the SAFE Network?',
+          question: '¿Por qué usar la SAFE Network?',
           answer: [
-            'Applications and programs on the existing Internet compromise your privacy through advertising and effectively control your data, granting you access when you login. On the SAFE Network, only you control who has access to your data and the distributed security features make your data safer than ever before. If you contribute some of your spare computing power to the network, you will be compensated for doing so with the Network’s built-in token, [Safecoin](/safecoin).'
+            'Las aplicaciones y programas en Internet existentes comprometen su privacidad a través de la publicidad y el efectivo control de sus datos, concediéndole acceso al iniciar sesión. En la red SAFE, solo usted controla quién tiene acceso a sus datos y las características de seguridad distribuidas hacen que sus datos sean más seguros que nunca. Si usted contribuye con parte de su potencia de computación de repuesto a la red, se le compensará por hacerlo con el token incorporado de la red, [Safecoin](/safecoin).'
           ]
         },
         {
-          question: 'Who owns the SAFE Network?',
+          question: '¿Quién es el propietario de la SAFE Network?',
           answer: [
-            '**No one.**',
-            'The SAFE Network is [open source](https://github.com/maidsafe). Our vision is to create a resource that can be used by everyone to spread all human knowledge and to facilitate sharing across the planet, regardless of country of residence, culture, or economic background.'
+            '**Nadie.**',
+            'La SAFE Network es de [código abierto](https://github.com/maidsafe). Nuestra visión es crear un recurso que pueda ser utilizado por todos para difundir todo el conocimiento humano y facilitar el intercambio por todo el planeta, independientemente del país de residencia, cultura o contexto económico.'
           ]
         },
         {
-          question: 'Who are MaidSafe?',
+          question: '¿Quiénes son MaidSafe?',
           answer: [
-            'Started in 2006 by Scottish engineer David Irvine, MaidSafe are the core developers of the SAFE Network.  It’s a small team comprised of: thinkers, inventors, tinkerers, PhDs, engineers and designers. Although based in Ayr, Scotland, we work remotely with talents from many different cultures and countries, reflecting the users that we serve. Despite this variety, we all share a single mission: providing security and privacy for everyone.',
-            '_[Visit Maidsafe.net](https://maidsafe.net)_'
+            'Fundada en 2006 por el ingeniero escocés David Irvine, MaidSafe son los principales desarrolladores de la red SAFE. Es un pequeño equipo compuesto por: pensadores, inventores, reparadores, doctorados, ingenieros y diseñadores. Aunque con sede en Ayr, Escocia, trabajamos de forma remota con talentos de muchas culturas y países diferentes, reflejando los usuarios a los que servimos. A pesar de esta variedad, todos compartimos una única misión: proporcionar seguridad y privacidad a todos.',
+            '_[Visita Maidsafe.net](https://maidsafe.net)_'
           ]
         },
         {
-            question: 'What do I need in order to browse the SAFE Network?',
+            question: '¿Qué necesito para navegar la SAFE Network?',
             answer: [
-              '[Download the SAFE Network App!](https://github.com/maidsafe/safe-network-app/releases/latest)'
+              '[¡Descarga la aplicación SAFE Network!](https://github.com/maidsafe/safe-network-app/releases/latest)'
             ]
           },
         {
-          question: 'How do I get involved with the SAFE Network community?',
+          question: '¿Cómo me involucro con la comunidad de SAFE Network?',
           answer: [
-            'The Community is most active on the [SAFE Network Forum](https://safenetforum.org/) and we’d suggest starting in the [beginners section](https://safenetforum.org/c/beginners).',
-            '*[Visit the Forum](https://safenetforum.org/)*'
+            'La Comunidad es más activa en [el Foro de SAFE Network](https://safenetforum.org/) y le sugerimos comenzar en [y le sugerimos comenzar en](https://safenetforum.org/c/beginners).',
+            '*[Visite el foro](https://safenetforum.org/)*'
           ]
         },
         {
-          question: 'How do I get help?',
+          question: '¿Cómo puedo obtener ayuda?',
           answer: [
-            'The [SAFE Network Forum](https://safenetforum.org) is the place to head to for all questions on the Network.',
-            '_[Visit the Forum](https://safenetforum.org/)_'
+            'The [Foro de SAFE Network](https://safenetforum.org) es el lugar al que dirigirse para todas las preguntas de la Red.',
+            '_[Visite el foro](https://safenetforum.org/)_'
           ]
         }
       ]
@@ -89,46 +89,46 @@
     //   ]
     // },
     {
-      title: 'How it works',
+      title: 'Cómo funciona',
       items: [
         {
-          question: 'What is a Vault?',
+          question: '¿Qué es una bóveda?',
           answer: [
-            'The SAFE Network is made up of nodes called Vaults. A Vault is a program that runs on a device which connects the machine to the Network. Collectively, Vaults manage the storage of all data on the Network by managing the movement of chunks of encrypted user data that are stored across the Network. No Farmer (user) can ever decrypt a chunk of data that his or her Vault receives and, in return for providing the storage capacity to the Network, is rewarded with Safecoin.',
-            'Vaults ensure that the events occurring on the Network are valid. They are clustered into small groups, each with responsibility for looking after the data stored within a Section (a certain range of addresses).',
-            'These groups of nodes form, merge and split without any human oversight as the SAFE Network itself has complete control of the process. In the same way, the encrypted data chunks move around the Network in a fully autonomous way. No central servers or agents (like BitTorrent trackers) are required by the Network. No central authority oversees the proceedings.',
-            'Just as children are not allowed to vote in elections, a Vault is not allowed to vote on Network events (such as a new member joining or the storage of a data chunk) until it has proven itself to be reliable. Initially, a Vault has to successfully complete a [Proof of Resource](https://www.youtube.com/watch?v=rdczpOlLaVk) request to join the Network, proving that it can provide a certain amount of bandwidth and CPU capacity. It is then assigned to a Section and given a low Node Age. This is a measure of its trustworthiness. After that initial connection, the Network will autonomously move (churn) that Vault at random from Section to Section, giving it the opportunity to build its reputation (Node Age). Once its Node Age reaches a certain value, it can be an active participant in group decisions. A Vault with the greatest Node Age in a Section is known as an Elder. As a result, because new Vaults must prove their worth in various random Sections before they can vote, targeting a particular Section on the SAFE Network by an attacker is close to impossible.',
-            'Vaults also cryptographically check messages and take on more defined roles, called personas. Each Vault will have a Client Manager persona. This keeps a record of the account details for each Client (user) within its Section. For example, this will confirm how much data has been uploaded to the Network, how much is being stored and the balance of Safecoin remaining to fund further uploads. Whilst a Client Manager will know the account balance, it has no way of linking this to an identity (i.e. an IP address, username or public identity).',
-            'Each Vault also has a Data Manager persona. This manages where encrypted chunks of other users’ data is held and has responsibility for the chunks in its Section.'
+            'La red SAFE se compone de nodos denominados bóvedas. Una bóveda es un programa que se ejecuta en un dispositivo que conecta el equipo a la red. En conjunto, las bóveda administran el almacenamiento de todos los datos de la red mediante la administración del movimiento de fragmentos de datos cifrados que se almacenan a través de ésta. Ningún agricultor (usuario) puede descifrar un trozo de datos que su Bóveda recibe y, a cambio de proporcionar la capacidad de almacenamiento a la Red, es recompensado con Safecoin.',
+            'Las bóvedas garantizan que los eventos que se producen en la red sean válidos. Se agrupan en grupos pequeños, cada uno con la responsabilidad de cuidar los datos almacenados dentro de una Sección (un dicho rango de direcciones).',
+            'Estos grupos de nodos se forman, se fusionan y se dividen sin ninguna supervisión humana, ya que la propia red SAFE tiene el control completo del proceso. Del mismo modo, los fragmentos de datos cifrados se mueven por la red de una manera totalmente autónoma. La red no requiere servidores o agentes centrales (como los rastreadores BitTorrent). Ninguna autoridad central supervisa el procedimiento.',
+            'Del mismo modo que los niños no pueden votar en las elecciones, una Bóveda no puede votar en eventos de la Red (como la unión de un nuevo miembro o el almacenamiento de un fragmento de datos) hasta que haya demostrado ser confiable. Inicialmente, una bóveda tiene que completar correctamente una solicitud [de prueba de recursos para](https://www.youtube.com/watch?v=rdczpOlLaVk) unirse a la red, lo que demuestra que puede proporcionar una cierta cantidad de banda ancha y capacidad de CPU. A continuación, se asigna a una sección y se le da una edad de nodo baja. Esta es una medida de fiabilidad. Después de esa conexión inicial, la Red moverá de forma autónoma (rotación) esa bóveda al azar de sección a sección, dándole la oportunidad de construir su reputación (Edad del nodo). Una vez que su edad de nodo alcanza un cierto valor, puede ser un participante activo en las decisiones de grupo. Una bóveda con la mayor edad de nodo en una sección se conoce como un anciano. Como resultado, debido a que las nuevas bóvedas deben demostrar su valor en varias secciones aleatorias antes de que puedan votar, atacar una sección particular en la red SAFE es casi imposible.',
+            'Los almacenes también comprueban criptográficamente los mensajes y toman roles más definidos, llamados personas. Cada bóveda tendrá un personaje de Administrador de clientes. Esto mantiene un registro de los detalles de la cuenta para cada cliente (usuario) dentro de su sección. Por ejemplo, esto confirmará cuántos datos se han cargado en la Red, cuántos se almacenan y el saldo de Safecoin restante para financiar más cargas. Aunque un administrador de clientes conocerá el saldo de la cuenta, no tiene forma de vincularlo a una identidad (es decir, una dirección IP, nombre de usuario o identidad pública).',
+            'Cada bóveda también tiene un personaje de Data Manager. Esto administra dónde se mantienen los fragmentos cifrados de los datos de otros usuarios y es responsable de los fragmentos de su sección.'
           ]
         },
         {
-          question: 'Why do we need an Autonomous Network?',
+          question: '¿Por qué necesitamos una Red Autónoma?',
           answer: [
-            'An autonomous network is one that manages all of our data and communications without any human intervention and no intermediaries. It is a network that configures itself. Resources are not added by a centralised IT administrator—reducing the opportunity for malicious or negligent activities. The Network becomes permissionless—participation is open to all who seek it, removing the risks of monopolisation by single entities whose power can grow unchecked.',
-            'Many data breaches are caused by human error. But the issue is more fundamental. We are becoming increasingly reliant on systems in which our data is stored by others. As more of our personal data in the hands of third parties, the risks of failure grow higher by the day. We already see our data being used for purposes that we dislike today. How likely is it that your access will be revoked entirely? That you will no longer control that stream of data about your life? In some countries, that is already a reality.',
-            'We can improve physical security. We must ensure that data cannot be deleted, changed, corrupted or accessed without the data owner’s consent. And only by removing humans from the management of our data can physical security be provided. You must have storage locations that are unknown to anyone but the network and one in which the user cannot be identified. Only an autonomous network provides this level of security.',
-            'An autonomous network automatically splits and encrypts (using self-encryption) all data before storing this dynamically at locations that it selects. Nodes join anonymously and the Network will constantly move these nodes between groups—again without any human intervention or centralised record. Together each group of nodes takes decisions based on the messages that they receive.',
-            'An autonomous network is also able to create additional copies of popular data which means that requests are served more quickly. At the same time, the Network itself can identify duplicate copies of identical data and reduce these to a minimum.',
-            'Our design approach is influenced by the humble ant. Ant colonies exhibit complex and highly organised behaviour on a massive scale without reliance on a central authority. Instead, each ant fulfils different duties based on the needs of the colony. In a similar way, nodes on the SAFE Network perform different functions based on the types of messages that they need.',
-            'So why do we need an autonomous network? Because humans make mistakes, centralised storage facilities are prone to failure—and we collectively need to build a platform upon which mankind can collaborate as we move into the future.'
+            'Una red autónoma es una red que gestiona todos nuestros datos y comunicaciones sin intervención humana ni intermediarios. Es una red que se configura a sí misma. Un administrador de TI centralizado no agrega recursos, lo que reduce la oportunidad de actividades maliciosas o negligentes. La Red se queda sin permisos: la participación está abierta a todos los que la buscan, eliminando los riesgos de monopolización por parte de entidades únicas cuyo poder puede crecer sin control.',
+            'Muchas violaciones de datos son causadas por errores humanos. Pero el tema es más fundamental. Cada vez dependemos más de los sistemas en los que nuestros datos son almacenados por otros. A medida que más datos personales están en manos de terceros, los riesgos de errores crecen día a día. Como ya sabemos, hoy en dia nuestros datos se utilizan para fines que no nos gustan. ¿Qué tan probable es que su acceso sea revocado por completo? ¿Que ya no controlará ese flujo de datos sobre su vida? En algunos países, eso ya es una realidad.',
+            'Podemos mejorar la seguridad física. Debemos asegurarnos de que los datos no puedan ser eliminados, cambiados, dañados o accedidos sin el consentimiento del propietario de los datos. Y sólo mediante la eliminación de los seres humanos en la gestión de datos se puede proporcionar seguridad física. Debe tener ubicaciones de almacenamiento desconocidas para cualquier persona que no sea la red y una en la que no se pueda identificar al usuario. Sólo una red autónoma proporciona este nivel de seguridad.',
+            'Una red autónoma divide y cifra automáticamente (mediante autocifrado) todos los datos antes de almacenarlos dinámicamente en las ubicaciones que selecciona. Los nodos se unen de forma anónima y la Red moverá constantemente estos nodos entre grupos, de nuevo sin ninguna intervención humana o registro centralizado. Juntos, cada grupo de nodos toma decisiones basadas en los mensajes que reciben.',
+            'Una red autónoma también es capaz de crear copias adicionales de datos populares, lo que significa que las solicitudes se cumplan más rápidamente. Al mismo tiempo, la propia red puede identificar copias de datos idénticos duplicadas y reducirlos al mínimo.',
+            'Nuestro enfoque de diseño está influenciado por la humilde hormiga. Las colonias de hormigas exhiben un comportamiento complejo y altamente organizado a gran escala sin depender de una autoridad central. En cambio, cada hormiga cumple diferentes deberes basados en las necesidades de la colonia. De forma similar, los nodos de la red SAFE realizan diferentes funciones, dependiendo de los tipos de mensajes que necesitan.',
+            'Entonces, ¿por qué necesitamos una red autónoma? Debido a que los seres humanos cometen errores, las instalaciones de almacenamiento centralizadas son propensas al fallo, y colectivamente necesitamos construir una plataforma sobre la que la humanidad pueda colaborar a medida que avanzamos hacia el futuro.'
           ]
         },
         {
-          question: 'What is Proof of Resource?',
+          question: '¿Qué es la prueba de recursos?',
           answer: [
-            'Proof of Resource is the process that measures a Vault’s ability to store and retrieve data chunks. A User’s computer receives a score based on its CPU speed, bandwidth availability, disk space and time online.',
-            'Proof of Resource in the SAFE Network uses a mechanism similar to a Zero Knowledge Proof. The checking mechanism does not need to know what data is being checked—it simply needs to know that the correct data is being held and accurately.'
+            'Prueba de recursos es el proceso que mide la capacidad de un almacén para guardar y recuperar fragmentos de datos. El ordenador de un usuario recibe una puntuación basada en su velocidad de CPU, disponibilidad de banda ancha, espacio en disco y tiempo en línea.',
+            'La prueba de recursos en la red SAFE utiliza un mecanismo similar a una prueba de conocimiento cero. El mecanismo de comprobación no necesita saber qué datos se están comprobando, simplemente necesita saber que los datos correctos se están reteniendo y con precisión.'
           ]
         },
         {
-          question: 'What is self&#8209;encryption?',
+          question: '¿Qué es el&#8209;autocifrado?',
           answer: [
-            'Self-encryption is the way in which a piece of data is split and then each chunk is encrypted using the other pieces of that same piece of data. It is a crucial process in the SAFE Network and ensures that the data is unrecognisable and resistant to decryption—even in the event of an encryption algorithm being compromised.',
-            'All data is self-encrypted before it is reaches the SAFE Network. The process is automatic and happens instantaneously.',
-            'As data is saved to a User\'s virtual hard drive, it is broken up into a minimum of three chunks, [hashed](https://en.wikipedia.org/wiki/Hash_function) and then encrypted. To further obfuscate the data, every chunk is passed through an [XOR](https://en.wikipedia.org/wiki/Exclusive_or) function using the hashes of other chunks. Each chunk is then broken up and key value pairs are added to a table in the Users account, called a data map. The data map contains the locations of each chunk that makes up the file. The data map, with hashes before and after encryption, is used when retrieving and decoding the User\'s data, as the encryption process is non-reversible.',
-            'This entire process takes place on the Client (i.e. the User\'s computer) so that data is always encrypted on the network and only Users with the correct credentials can decrypt the file. This also means that passwords can never be stolen from the network as they never pass beyond the Users computer. For additional security the data map is also run through the self-encryption process.',
-            '[Watch a Video Explainer](https://youtu.be/Jnvwv4z17b4)'
+            'El auto-cifrado es la forma en que se divide un fragmento de datos y, a continuación, cada fragmento se cifra utilizando las otras partes de esa misma pieza de datos. Es un proceso crucial en la red SAFE y garantiza que los datos son irreconocibles y resistentes al descifrado, incluso en el caso de que un algoritmo de cifrado se vea comprometido.',
+            'Todos los datos se auto-cifran antes de que lleguen a la red SAFE. El proceso es automático y ocurre instantáneamente.',
+            'A medida que los datos se guardan en el disco duro virtual de un usuario, se dividen en un mínimo de tres fragmentos, con [hash](https://en.wikipedia.org/wiki/Hash_function) y cifrados. Para ocultar aún más los datos, cada fragmento se pasa a través de una función [XOR](https://en.wikipedia.org/wiki/Exclusive_or) utilizando los hashes de otros fragmentos. A continuación, cada fragmento se divide y los pares de valores de clave se agregan a una tabla de la cuenta Usuarios, denominada mapa de datos. El mapa de datos contiene las ubicaciones de cada fragmento que compone el archivo. El mapa de datos, con hashes antes y después del cifrado, se utiliza al recuperar y decodificar los datos del usuario, ya que el proceso de cifrado no es reversible.',
+            'Todo este proceso tiene lugar en el Cliente (es decir, el ordenador del Usuario) para que los datos siempre se cifren en la red y solo los Usuarios con las credenciales correctas puedan decodificar el archivo. Esto también significa que las contraseñas nunca pueden ser robadas de la red, ya que nunca pasan más allá del equipo de los usuarios. Para mayor seguridad, el mapa de datos también se ejecuta a través del proceso de auto-cifrado.',
+            '[Vea un Explica-Video](https://youtu.be/Jnvwv4z17b4)'
           ]
         },
         {
