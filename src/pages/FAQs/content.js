@@ -132,88 +132,88 @@
           ]
         },
         {
-          question: 'What is PARSEC?',
+          question: '¿Qué es PARSEC?',
           answer: [
-            '**P**rotocol for **A**synchronous, **R**eliable, **S**ecure & **E**fficient **C**onsensus.',
-            'PARSEC is the consensus algorithm which allows decentralised networks to reach agreement on a series of events, actions or activities in a secure and reliable manner that is not only highly asynchronous but also Byzantine Fault Tolerant. In other words, the Network is mathematically guaranteed to reach consensus (provided no more than one-third of nodes are malicious or unresponsive for whatever reason).',
-            '[Read the whitepaper](https://docs.maidsafe.net/Whitepapers/pdf/PARSEC.pdf)',
+            '**P**rotocolo para **C**onsenso **A**sincrónico, **C**onfiable, **S**eguro y **E**ficiente.',
+            'PARSEC es el algoritmo de consenso que permite a las redes descentralizadas llegar a un acuerdo sobre una serie de eventos, acciones o actividades de una manera segura y confiable que no sólo es altamente asincrónico, sino también bizantino tolerante de fallas. En otras palabras, se garantiza matemáticamente que la Red alcance un consenso (siempre que no más de un tercio de los nodos sean maliciosos o que no respondan por ninguna razón).',
+            '[Lea el documento técnico](https://docs.maidsafe.net/Whitepapers/pdf/PARSEC.pdf)',
             '_PDF_',
-            '[Watch a video giving a technical overview](https://youtu.be/JKagaPUrDsY)',
+            '[Vea un video que ofrece una visión general técnica](https://youtu.be/JKagaPUrDsY)',
             '_YouTube_',
-            '[Let Dug from MaidSafe talk you through it](https://youtu.be/3YRaTCET5ZU)',
+            '[Deje que Dug de MaidSafe se lo explique](https://youtu.be/3YRaTCET5ZU)',
             '_YouTube_'
           ]
         },
         {
-          question: 'What is data deduplication?',
+          question: '¿Qué es la desduplicación de datos?',
           answer: [
-            'The SAFE Network uses [data deduplication](https://en.wikipedia.org/wiki/Data_deduplication) to ensure that space is used efficiently when storing multiple copies of data which have been uniquely encrypted. The network is able to distinguish identical pieces of data by comparing the hashes of each chunk. Vaults also use hashes to identify themselves (known as Guaranteed Vault Identification).'
+            'La SAFE Network utiliza [ la desduplicación de datos](https://en.wikipedia.org/wiki/Data_deduplication) para garantizar que el espacio se utilice de forma eficaz al almacenar varias copias de datos cifrados de forma única. La red es capaz de distinguir fragmentos idénticos de datos comparando los hashes de cada fragmento. Las bóvedas también usan hashes para identificarse (conocido como Identificación de almacén garantizada).'
           ]
         },
         {
-          question: 'What is Self-Authentication?',
+          question: '¿Qué es la autoautenticación?',
           answer: [
-            'Self-Authentication means that you can log in and secure your data with no middle man. You never have to give your password to anyone or ask a third party’s permission to access your data. Your information, and access to it, belongs to you and no one else. Your Secret and Password are used to locate your data on the Network and then used to decrypt that data locally. That means that no one needs to hold a record of your files or your login details—and there’s no need to ask anyone for permission to access it. This is known as Self-Authentication and enables you to find, unlock and decrypt your own data. '
+            'La autoautenticación significa que puede iniciar sesión y proteger sus datos sin intermediarios. Nunca tiene que dar su contraseña a nadie ni pedir permiso a un tercero para acceder a sus éstos. Su información, y el acceso a ella, le pertenece a usted y a nadie más. Su secreto y contraseña se utilizan para localizar los datos en la red y, a continuación, se utilizan para descifrar esos datos localmente. Eso significa que nadie necesita mantener un registro de sus archivos o sus datos de inicio de sesión, y no hay necesidad de pedir permiso a nadie para acceder a ellos. Esto se conoce como auto-autenticación y le permite encontrar, desbloquear y descifrar sus propios datos. '
           ]
         },
         {
-          question: 'What is Close Group Consensus?',
+          question: '¿Qué es Close Group Consensus?',
           answer: [
-            'A key requirement for distributed computer networks is consensus. In other words how can nodes reach agreement when there is no centralised authority and when you are likely to have nodes that are either malicious or fail. Many projects will rely on a blockchain in order to achieve this consensus but, as we know, [this approach doesn’t work](https://www.youtube.com/watch?v=i-RLdU8Y0Qc) with the SAFE Network where the number of transactions is greater and the expectation of users will be to retrieve data instantaneously. So how do you reach consensus on an increasingly large group of decentralised nodes without compromising security?',
-            'The answer lies within close groups. Using Close Group Consensus, small groups are able to make statements on behalf of the entire Network which means that the Network does not need to communicate directly with every single node each time.',
-            'On the SAFE Network, the concept of ‘closeness’ comes from something called XOR networking. This is a way of randomising the physical location of data on a distributed network and ensuring that each location is unique. However, in this sense, it is also used because every Vault has a XOR location also. A Close Group is then comprised of the closest Vault ID’s to the user’s Vault ID in terms of XOR distance. This is distance measured in the mathematical sense, as opposed to the geographical sense.',
-            'The Group of Vaults managing a Section will always try to reach consensus (agreement) amongst themselves on any state and action. They also ‘group sign’ messages that travel over the wider network so that other Vaults in other Groups can cryptographically verify each message and action (such as groups forming, splitting and merging). These group signatures are stored in Data Chains which are secured and held by all Vaults in the Group.',
-            'Close Group Consensus is not used for every operation on the Network as this would cause unnecessary load. It is only used for putting data on the Network—cryptographic signatures are used for other activities—for example, simple amendments to data or sending a Safecoin to another user.'
+            'Un requisito clave para las redes informáticas distribuidas es el consenso. En otras palabras, ¿cómo pueden los nodos llegar a un acuerdo cuando no hay una autoridad centralizada y cuando es probable que tenga nodos que son malintencionados o erróneos. Muchos proyectos se basarán en una cadena de bloques para lograr este consenso, pero, como sabemos, este enfoque no funciona con la Red SAFE donde el número de transacciones es mayor y la expectativa de los usuarios será recuperar datos instantáneamente. Entonces, ¿cómo se llega a un consenso sobre un grupo cada vez más grande de nodos descentralizados sin comprometer la seguridad?',
+            'La respuesta está dentro de grupos cercanos. Mediante el consenso de grupo cercano, los grupos pequeños pueden hacer declaraciones en nombre de toda la red, lo que significa que la red no necesita comunicarse directamente con cada nodo cada vez.',
+            'En la red SAFE, el concepto de “cercanía” proviene de algo llamado redes XOR. Esta es una forma de aleatorizar la ubicación física de los datos en una red distribuida y garantizar que cada ubicación sea única. Sin embargo, en este sentido, también se utiliza porque cada Bóveda también tiene una ubicación XOR. A continuación, un Grupo de Cierre se compone de los ID de bóveda más cercanos al ID de la Bóveda del usuario en términos de distancia XOR. Esta distancia es medida en el sentido matemático, a diferencia del sentido geográfico.',
+            'El Grupo de Bóvedas que administra una Sección siempre tratará de llegar a un consenso (acuerdo) entre ellos mismos sobre cualquier estado y acción. También “firman en grupo” mensajes que viajan a través de la red más amplia para que otros almacenes de otros grupos puedan verificar criptográficamente cada mensaje y acción (como la formación, división y fusión de grupos). Estas firmas de grupo se almacenan en Cadenas de datos protegidas y mantenidas por todos las bóvedas del grupo.',
+            'El Consenso de grupo de Cierre no se utiliza para todas las operaciones de la red, ya que esto causaría una carga innecesaria. Sólo se utiliza para poner datos en la Red (las firmas criptográficas se utilizan para otras actividades), por ejemplo, simples modificaciones de datos o el envío de un Safecoin a otro usuario.'
           ]
         },
         {
-          question: 'What are Data Chains?',
+          question: '¿Qué son las cadenas de datos?',
           answer: [
-            'In the same way that the Bitcoin blockchain does not hold bitcoins, a data chain doesn’t hold data. However, it does provide evidence that a piece of data exists and where it should exist. Crucially, with the SAFE Network the data identified is real (documents, videos etc). That means that we can use that data identifier to prove the actual data itself is valid Network data (i.e. it has been accepted previously by the Network).',
-            'So what is the architecture of a Data Chain? Imagine a block of data. This contains the data identifiers (for example, hash, name, type of data etc). Connected to this block is a link. This link a collection of signatures by all of the members of a group who agree that the details within this block of data are correct. With every change in the membership of the group, a new link is created and added to the Data Chain.',
-            'There is much more to the detail of this architecture but to summarise, the Data Chain will split as the Network grows whilst the collective record will remain, accessible to all nodes. The links prove the membership and agreement that has taken place in the past. Using Data Chains, nodes have a provable history on the Network which means that they can prove group membership and be ranked easily for security purposes. Some nodes will not need to hold the actual data but instead hold only identifiers as the existence of that data is guaranteed. And crucially, Data Chains will ultimately enable the secure republishing of data should the Network ever lose power, as well as providing validation that data has been stored on the Network.',
-            'We believe that Data Chains appear to be a natural progression for decentralised systems. They allow data of any type, size or format to be looked after and maintained in a secure and decentralised manner-in the sense of not only protecting physical data but also the validity of such data on the Network.'
+            'De la misma manera que la cadena de bloques Bitcoin no contiene bitcoins, una cadena de datos no contiene datos. Sin embargo, sí proporciona pruebas de que existe un dato y dónde debe existir. Fundamentalmente, con la Red SAFE los datos identificados son reales (documentos, vídeos, etc.). Esto significa que podemos usar ese identificador de datos para probar que los datos reales son datos de red válidos (es decir, han sido aceptados previamente por la Red).',
+            'Entonces, ¿cuál es la arquitectura de una cadena de datos? Imagine un bloque de datos. Contiene los identificadores de datos (por ejemplo, hash, nombre, tipo de datos, etc.). Un enlace está conectado a este bloque. Este es un enlace a una colección de firmas de todos los miembros de un grupo que están de acuerdo en que los detalles dentro de este bloque de datos son correctos. Con cada cambio en la pertenencia al grupo, se crea un nuevo vínculo y se agrega a la cadena de datos.',
+            'Hay mucho más en el detalle de esta arquitectura, pero para resumir, la cadena de datos se dividirá a medida que la red crezca mientras que el registro colectivo permanecerá, accesible a todos los nodos. Los vínculos demuestran la membresía y el acuerdo que ha tenido lugar en el pasado. Con las cadenas de datos, los nodos tienen un historial demostrable en la red, lo que significa que pueden probar la pertenencia a grupos y clasificarse fácilmente por motivos de seguridad. Algunos nodos no necesitarán contener los datos reales, sino que solo contienen identificadores, ya que se garantiza la existencia de esos datos. Y lo que es crucial, las cadenas de datos permitirán, en última instancia, la republicación segura de datos en caso de que la red pierda energía, además de proporcionar la validación de que los datos se han almacenado en la red.',
+            'Creemos que las cadenas de datos parecen ser una progresión natural para los sistemas descentralizados. Permiten que los datos de cualquier tipo, tamaño o formato sean atendidos y mantenidos de forma segura y descentralizada en el sentido no sólo de proteger los datos físicos, sino también la validez de dichos datos en la Red.'
           ]
         }
       ]
     },
     {
-      title: 'About Safecoin',
+      title: 'Acerca de Safecoin',
       items: [
         {
-          question: 'What is Safecoin?',
+          question: '¿Qué es Safecoin?',
           answer: [
-            'Safecoin is a digital token that is generated automatically by the SAFE Network and stays on the SAFE Network. The Network will autonomously confirm account balances to Wallets and allow transactions to take place. Safecoin is transferred using the digital signature of the coin’s last owner. This operation is \'network atomic\'; in other words, the Network ensures that all copies update to reflect the transaction. This is a different approach to the blockchain mechanism employed in other projects, such as Bitcoin.'
+            'Safecoin es un token digital que es generado automáticamente por la red SAFE y permanece en la red SAFE. La Red confirmará de forma autónoma los saldos de la cuenta a Carteras y permitirá que se realicen transacciones. Safecoin se transfiere utilizando la firma digital del último propietario de la moneda. Esta operación es ‘atómica de red’; en otras palabras, la Red se asegura de que todas las copias se actualicen para reflejar la transacción. Este es un enfoque diferente al mecanismo blockchain empleado en otros proyectos, como Bitcoin.'
           ]
         },
         {
-          question: 'What\'s the use of Safecoin in the SAFE Network?',
+          question: '¿Cuál es el uso de Safecoin en la SAFE Network?',
           answer: [
-            'Safecoin is the currency of the SAFE Network. It is an incentive mechanism that rewards Users and developers, as well as providing access to network services.',
-            'Without any human intervention, the SAFE Network pays out Safecoin automatically to Farmers (users who join the Network by contributing their computing resources) and to Builders (application developers, who get paid automatically depending on how much their applications are used).',
-            'In addition, Core Developers who improve the core SAFE Network codebase can also earn Safecoin by providing bug fixes and new features.',
-            'Safecoin only lives on the SAFE Network. It is stored in a User\'s wallet and can be used to buy network services, such as increased storage space and access to network applications. There is no set distribution time for the 4.3 billion Safecoin produced during the life of the SAFE Network.'
+            'Safecoin es la moneda de la red SAFE. Es un mecanismo de incentivos que recompensa a los usuarios y desarrolladores, así como proporcionar acceso a los servicios de red.',
+            'Sin ninguna intervención humana, la Red SAFE paga Safecoin automáticamente a los agricultores (usuarios que se unen a la Red aportando sus recursos informáticos) y a los constructores (desarrolladores de aplicaciones, que reciben pagos automáticamente dependiendo de cuánto se utilizan sus aplicaciones).',
+            'Además, los desarrolladores principales que mejoran el código base de red SAFE núcleo, también pueden ganar Safecoin proporcionando correcciones de errores y nuevas características.',
+            'Safecoin sólo vive en la Red SAFE. Se almacena en la cartera de un usuario y se puede utilizar para comprar servicios de red, como mayor espacio de almacenamiento y acceso a aplicaciones de red. No hay un tiempo de distribución establecido para los 4.3 millones de Safecoin producidos durante la vida de la Red SAFE.'
           ]
         },
         {
-          question: 'How do I buy Safecoin?',
+          question: '¿Cómo compro Safecoin?',
           answer: [
-            'Safecoin won’t be issued until the Network goes live so they cannot be purchased at the moment. Currently you can buy MaidSafeCoin which will be swapped on a 1-to-1 basis for Safecoin when released.',
-            'MaidSafeCoin is listed on the Bitcoin blockchain and can be purchased on a number of exchanges including:',
+            'Safecoin no se emitirá hasta que la Red entre en funcionamiento, por lo que no se pueden comprar en este momento. Actualmente usted puede comprar MaidSafeCoin que será intercambiado sobre una base 1-to-1 para Safecoin cuando se lance.',
+            'MaidSafeCoin aparece en la cadena de bloques Bitcoin y se puede comprar en una serie de intercambios, incluyendo:',
             '- [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)\n- [HitBTC](https://hitbtc.com/MAID-to-BTC)'
           ]
         },
         {
-          question: 'Why not just use Bitcoin?',
+          question: '¿Por qué no usar Bitcoin?',
           answer: [
-            'Bitcoin is completely unrelated to the SAFE Network and cannot be generated or distributed by the SAFE Network. Safecoin is generated in response to network use (stored data being retrieved or apps are created) and is the digital currency of the SAFE Network.'
+            'Bitcoin es completamente ajeno a la Red SAFE y no puede ser generado o distribuido por ésta. Safecoin se genera en respuesta al uso de la red (cuando se recuperan datos almacenados o se crean aplicaciones) y es la moneda digital de la red SAFE.'
           ]
         },
         {
-          question: 'How is Safecoin valued?',
+          question: '¿Cómo se valora Safecoin?',
           answer: [
-            'The value of Safecoin will be set by the market. In other words, the demand to acquire Safecoin will be driven by the demand to buy things on the Network using Safecoin (e.g. other currency, products, services etc). Whilst simply viewing data on the Network will be free, Safecoin will be needed to buy distributed data storage and for communications. Farmers should earn more than enough Safecoin to enable them to use the Network. Those who earn more than they need will likely sell excess Safecoin to the exchanges.',
-            'It is worth noting that the generation and distribution of Safecoin will be entirely network-led, meaning that a great demand for Safecoin will result in a large volume being created, while low demand will lead to minimal coins being generated.'
+            'El valor de Safecoin será establecido por el mercado. En otras palabras, la demanda para adquirir Safecoin será impulsada por la demanda de comprar cosas en la Red utilizando Safecoin (por ejemplo, otra moneda, productos, servicios, etc.). Aunque simplemente ver los datos en la Red será gratis, Safecoin será necesario para comprar almacenamiento de datos distribuidos y para las comunicaciones. Los agricultores deben ganar más que suficiente Safecoin para permitirles usar la Red. Aquellos que ganan más de lo que necesitan probablemente venderán su exceso de Safecoin a los intercambios.',
+            'Vale la pena señalar que la generación y distribución de Safecoin será totalmente dirigida a la red, lo que significa que una gran demanda dará lugar a una gran creación de monedas Safecoin, mientras que la baja demanda conducirá a una mínima creación de ésta.'
           ]
         },
         {
