@@ -62,9 +62,7 @@ export default {
         {
           question: 'Permite que cualquier Usuario, en cualquier máquina, acceda a la red, pero que no quede rastro de ese Usuario en la máquina',
           answer: [
-            'En última instancia, la Red debe ser accesible para cualquier Usuario en cualquier dispositivo. Cuando ese usuario cierra sesión en la red y sale de esa máquina, no debe haber ninguna evidencia (excepto cualquier software descargado para acceder a la red, como el navegador) que muestre qué actividad emprendió el usuario en la SAFE Network.
-
-'
+            'En última instancia, la Red debe ser accesible para cualquier Usuario en cualquier dispositivo. Cuando ese usuario cierra sesión en la red y sale de esa máquina, no debe haber ninguna evidencia (excepto cualquier software descargado para acceder a la red, como el navegador) que muestre qué actividad emprendió el usuario en la SAFE Network.'
           ]
         },
         {
