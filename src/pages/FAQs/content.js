@@ -309,9 +309,7 @@
           ]
         },
         {
-          question: '¿Qué licencias de código abierto utiliza SAFE Network?
-
-',
+          question: '¿Qué licencias de código abierto utiliza SAFE Network?',
           answer: [
             'Todo el código SAFE Network y MaidSafe está disponible bajo licencia [GPLv3](https://www.gnu.org/licenses/gpl.html), [BSD](http://www.linfo.org/bsdlicense.html) o [MIT](https://opensource.org/licenses/MIT).'
           ]
